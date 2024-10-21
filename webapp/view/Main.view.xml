@@ -24,7 +24,7 @@
       <!-- Personal Summary -->
       <ObjectHeader
         title="Marian Zeis"
-        intro="Independent UI5/ABAP Developer"
+        intro="Independent SAP Developer"
         icon="/data/profile.jpg"
         iconDensityAware="false"
         iconAlt="Marian Zeis">
