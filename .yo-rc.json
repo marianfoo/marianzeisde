@@ -1,0 +1,19 @@
+{
+  "generator-ui5-ts-app": {
+    "namespace": "de.marianzeis",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.129.0",
+    "author": "„marianfoo“",
+    "initrepo": true,
+    "tstypes": "@openui5/types",
+    "tstypesVersion": "1.129.0",
+    "appId": "de.marianzeis",
+    "appURI": "de/marianzeis",
+    "cdnDomain": "sdk.openui5.org",
+    "defaultTheme": "sap_horizon",
+    "gte1_98_0": true,
+    "gte1_104_0": true,
+    "gte1_115_0": true,
+    "setupCompleted": true
+  }
+}
