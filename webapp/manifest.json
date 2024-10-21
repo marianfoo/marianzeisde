@@ -68,12 +68,21 @@
 					"pattern": "",
 					"name": "main",
 					"target": "main"
+				},
+				{
+					"pattern": "impressum",
+					"name": "impressum",
+					"target": "impressum"
 				}
 			],
 			"targets": {
 				"main": {
 					"viewId": "main",
 					"viewName": "Main"
+				},
+				"impressum": {
+					"viewId": "impressum",
+					"viewName": "Impressum"
 				}
 			}
 		}

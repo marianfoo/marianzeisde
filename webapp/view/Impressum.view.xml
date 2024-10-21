@@ -1,0 +1,51 @@
+<mvc:View
+    controllerName="de.marianzeis.controller.Impressum"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Page
+        title="Impressum"
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+        <content>
+            <VBox class="sapUiContentPadding">
+                <Title text="Imprint / Impressum" level="H1" class="sapUiMediumMarginBottom"/>
+                
+                <!-- English Version -->
+                <Title text="Imprint" level="H2" class="sapUiSmallMarginBottom"/>
+                <Text text="Details according to § 5 TMG (Telemedia Act)" class="sapUiTinyMarginBottom"/>
+                <Text text="IT Consulting Marian Zeis" class="sapUiTinyMarginBottom"/>
+                <Text text="Marian Zeis" class="sapUiTinyMarginBottom"/>
+                <Text text="Hünleinshaus 1" class="sapUiTinyMarginBottom"/>
+                <Text text="95336 Mainleus" class="sapUiMediumMarginBottom"/>
+                
+                <Title text="Contact" level="H3" class="sapUiSmallMarginBottom"/>
+                <Text text="Telephone: +49 (0) 15207574495" class="sapUiTinyMarginBottom"/>
+                <Text text="E-Mail: marian@marianzeis.de" class="sapUiMediumMarginBottom"/>
+                
+                <Title text="VAT ID" level="H3" class="sapUiSmallMarginBottom"/>
+                <Text text="VAT identification number according to § 27 a of the VAT Act:" class="sapUiTinyMarginBottom"/>
+                <Text text="DE353926927" class="sapUiMediumMarginBottom"/>
+                
+                <Text text="Source: e-recht24.de" class="sapUiLargeMarginBottom"/>
+                
+                <!-- German Version -->
+                <Title text="Impressum" level="H2" class="sapUiSmallMarginBottom"/>
+                <Text text="Angaben gemäß § 5 TMG" class="sapUiTinyMarginBottom"/>
+                <Text text="IT Consulting Marian Zeis" class="sapUiTinyMarginBottom"/>
+                <Text text="Marian Zeis" class="sapUiTinyMarginBottom"/>
+                <Text text="Hünleinshaus 1" class="sapUiTinyMarginBottom"/>
+                <Text text="95336 Mainleus" class="sapUiMediumMarginBottom"/>
+                
+                <Title text="Kontakt" level="H3" class="sapUiSmallMarginBottom"/>
+                <Text text="Telefon: +49 (0) 15207574495" class="sapUiTinyMarginBottom"/>
+                <Text text="E-Mail: marian@marianzeis.de" class="sapUiMediumMarginBottom"/>
+                
+                <Title text="Umsatzsteuer-ID" level="H3" class="sapUiSmallMarginBottom"/>
+                <Text text="Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:" class="sapUiTinyMarginBottom"/>
+                <Text text="DE353926927" class="sapUiMediumMarginBottom"/>
+                
+                <Text text="Quelle: e-recht24.de" class="sapUiLargeMarginBottom"/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

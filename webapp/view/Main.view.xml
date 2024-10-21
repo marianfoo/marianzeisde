@@ -1,30 +1,73 @@
 <mvc:View
-	controllerName="de.marianzeis.controller.Main"
-	displayBlock="true"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:core="sap.ui.core"
-	core:require="{
-		formatter: 'de/marianzeis/model/formatter'
-	}">
+  controllerName="de.marianzeis.controller.Main"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 
-	<Page
-		title="{i18n>appTitle}"
-		id="page">
-		<content>
-			<IllustratedMessage
-				title="{i18n>appTitle}"
-				illustrationType="sapIllus-SuccessHighFive"
-				enableVerticalResponsiveness="true"
-				description="{i18n>appDescription}">
-				<additionalContent>
-					<Button
-						id="helloButton"
-						text="{formatter: 'formatter.formatValue', path: 'i18n>btnText'}"
-						press="sayHello" />
-				</additionalContent>
-			</IllustratedMessage>
-		</content>
-	</Page>
+  <Page title="Marian Zeis - IT Consulting Marian Zeis">
+    <!-- Built with OpenUI5 -->
+    <Bar class="sapUiTinyMarginBottom">
+      <contentMiddle>
+        <Text text="Built with OpenUI5" class="sapUiMediumMarginBegin sapUiMediumMarginEnd"/>
+      </contentMiddle>
+      <contentRight>
+        <Image
+          src="https://openui5.org/images/OpenUI5_new_big_side.png"
+          height="2rem"
+          class="sapUiTinyMarginEnd"
+        />
+      </contentRight>
+    </Bar>
+
+    <content>
+      <!-- Personal Summary -->
+      <ObjectHeader
+        title="Marian Zeis"
+        intro="Independent UI5/ABAP Developer"
+        icon="/data/profile.jpg"
+        iconDensityAware="false"
+        iconAlt="Marian Zeis">
+        <attributes>
+          <ObjectAttribute title="Location" text="Mainleus, Bavaria, Germany"/>
+        </attributes>
+      </ObjectHeader>
+      
+      <!-- Contact Info -->
+      <List headerText="Contact Information" items="{profileData>/contactInfo}">
+        <StandardListItem
+          title="{profileData>title}"
+          description="{profileData>description}"
+          type="{profileData>type}"
+          press="onNavigateToProfile"
+          app:link="{profileData>link}"/>
+      </List>
+
+	  <!-- Projects -->
+      <List headerText="Projects" items="{profileData>/projects}">
+        <StandardListItem
+          title="{profileData>title}"
+          description="{profileData>description}"
+		  type="{profileData>type}"
+          press="onNavigateToProfile"
+          app:link="{profileData>link}"/>
+      </List>
+
+      <!-- Professional Experience -->
+      <List headerText="Experience" items="{profileData>/experience}">
+        <StandardListItem
+          title="{profileData>title}"
+          description="{profileData>description}"/>
+      </List>
+
+      <!-- Skills -->
+      <List headerText="Top Skills" items="{profileData>/topSkills}">
+        <StandardListItem title="{profileData>title}"/>
+      </List>
+
+      <!-- Impressum Link -->
+      <Link text="Imprint" press="onNavigateToImpressum" class="sapUiTinyMarginTop sapUiTinyMarginBegin"/>
+    </content>
+  </Page>
 
 </mvc:View>
