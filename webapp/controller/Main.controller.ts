@@ -14,7 +14,7 @@ export default class Main extends BaseController {
 			contactInfo: [
 				{ title: "LinkedIn", type: "Navigation", link: "https://www.linkedin.com/in/marianzeis" },
 				{ title: "GitHub", type: "Navigation", link: "https://github.com/marianfoo" },
-				{ title: "Email", description: "marian@marianzeis.de", type: "Active", press: "onSendEmail" },
+				{ title: "Email", description: "marian@marianzeis.de", type: "Active", link: "mailto:marian@marianzeis.de" },
 				{ title: "Twitter", type: "Navigation", link: "https://twitter.com/mianbsp" }
 			],
 			experience: [
