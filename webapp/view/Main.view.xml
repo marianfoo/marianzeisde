@@ -6,19 +6,6 @@
   xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 
   <Page title="Marian Zeis - IT Consulting Marian Zeis">
-    <!-- Built with OpenUI5 -->
-    <Bar class="sapUiTinyMarginBottom">
-      <!-- <contentMiddle>
-        <Text text="Built with OpenUI5" class="sapUiMediumMarginBegin sapUiMediumMarginEnd"/>
-      </contentMiddle>
-      <contentRight>
-        <Image
-          src="https://openui5.org/images/OpenUI5_new_big_side.png"
-          height="2rem"
-          class="sapUiTinyMarginEnd"
-        />
-      </contentRight> -->
-    </Bar>
 
     <content>
       <!-- Company Name -->
@@ -68,6 +55,42 @@
       <!-- Skills -->
       <List headerText="Top Skills" items="{profileData>/topSkills}">
         <StandardListItem title="{profileData>title}"/>
+      </List>
+
+
+      <!-- Presentations -->
+      <List headerText="Presentations" items="{profileData>/presentations}">
+        <CustomListItem class="customListItem">
+          <VBox>
+            <Title text="{profileData>title}" level="H3"/>
+            <HBox items="{path: 'profileData>links', templateShareable:false}">
+              <Link 
+                text="{profileData>text}" 
+                href="{profileData>url}" 
+                target="_blank" 
+                class="sapUiTinyMarginEnd"/>
+            </HBox>
+          </VBox>
+        </CustomListItem>
+      </List>
+
+      <!-- Blog Posts -->
+      <List headerText="Blog Posts" items="{profileData>/blogPosts}">
+        <StandardListItem
+          title="{profileData>title}"
+          description="{profileData>date}"
+          type="Navigation"
+          press="onNavigateToProfile"
+          app:link="{profileData>link}"/>
+      </List>
+
+      <!-- Videos -->
+      <List headerText="Videos" items="{profileData>/videos}">
+        <StandardListItem
+          title="{profileData>title}"
+          type="Navigation"
+          press="onNavigateToProfile"
+          app:link="{profileData>link}"/>
       </List>
 
       <!-- Impressum Link -->

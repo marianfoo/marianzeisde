@@ -5,3 +5,30 @@
     margin-left: 1rem !important;
 }
 
+/* New styles for CustomListItem */
+.customListItem {
+    padding: 1rem !important;
+    background-color: #f8f9fa !important;
+    border-radius: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.customListItem .sapMTitle {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.customListItem .sapMLink {
+    margin-right: 1rem !important;
+    color: #0a6ed1 !important;
+    text-decoration: none !important;
+}
+
+.customListItem .sapMLink:hover {
+    text-decoration: underline !important;
+}
+
+.customListItem .sapMHBox {
+    flex-wrap: wrap !important;
+}
