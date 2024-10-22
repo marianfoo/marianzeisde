@@ -21,6 +21,9 @@
     </Bar>
 
     <content>
+      <!-- Company Name -->
+      <Title text="IT Consulting Marian Zeis" class="sapUiMediumMarginTop sapUiSmallMarginBottom companyNameTitle"/>
+
       <!-- Personal Summary -->
       <ObjectHeader
         title="Marian Zeis"
@@ -32,6 +35,8 @@
           <ObjectAttribute title="Location" text="Mainleus, Bavaria, Germany"/>
         </attributes>
       </ObjectHeader>
+      
+
       
       <!-- Contact Info -->
       <List headerText="Contact Information" items="{profileData>/contactInfo}">
