@@ -15,7 +15,8 @@ export default class Main extends BaseController {
 				{ title: "LinkedIn", type: "Navigation", link: "https://www.linkedin.com/in/marianzeis" },
 				{ title: "GitHub", type: "Navigation", link: "https://github.com/marianfoo" },
 				{ title: "Email", description: "marian@marianzeis.de", type: "Active", link: "mailto:marian@marianzeis.de" },
-				{ title: "Twitter", type: "Navigation", link: "https://twitter.com/mianbsp" }
+				{ title: "Bluesky", type: "Navigation", link: "https://bsky.app/profile/marian.marianzeis.de" },
+				{ title: "Mastodon", type: "Navigation", link: "https://saptodon.org/@Mianbsp" }
 			],
 			experience: [
 				{ title: "Deutschsprachige SAP-Anwendergruppe e.V. (DSAG)", description: "Sprecher DSAG AG UI-Technologien (Jan 2023 - Present)" },
