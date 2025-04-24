@@ -1,9 +1,9 @@
 import MessageBox from "sap/m/MessageBox";
 import BaseController from "./BaseController";
-import { NavType } from "sap/ui/core/routing/History";
 import Event from "sap/ui/base/Event";
 import StandardListItem from "sap/m/StandardListItem";
 import JSONModel from "sap/ui/model/json/JSONModel";
+import CustomData from "sap/ui/core/CustomData";
 
 /**
  * @namespace de.marianzeis.controller
@@ -137,6 +137,30 @@ export default class Main extends BaseController {
 
 		const oModel = new JSONModel(oData);
 		this.getView().setModel(oModel, "profileData");
+		
+		// Add event delegation for click handling
+		this.getView().addEventDelegate({
+			onAfterRendering: () => {
+				this.setupClickHandlers();
+			}
+		});
+	}
+	
+	private setupClickHandlers(): void {
+		// Get all clickable list items and add click handlers
+		const clickableItems = document.querySelectorAll(".clickableItem");
+		clickableItems.forEach(item => {
+			item.addEventListener("click", event => {
+				// Find the link and click it if the click wasn't directly on the link
+				const target = event.target as HTMLElement;
+				if (!target.closest("a")) {
+					const link = item.querySelector("a");
+					if (link) {
+						link.click();
+					}
+				}
+			});
+		});
 	}
 
 	public sayHello(): void {
@@ -150,7 +174,8 @@ export default class Main extends BaseController {
 
 	public onNavigateToProfile(event: Event): void {
 		const source = event.getSource() as StandardListItem;
-		const url = source.getCustomData()[0].mProperties["value"] as string;
+		const customData = source.getCustomData()[0] as CustomData;
+		const url = customData.getValue();
 		if (url) {
 			window.open(url, "_blank");
 		} else {

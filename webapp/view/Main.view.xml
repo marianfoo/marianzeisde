@@ -3,7 +3,8 @@
   displayBlock="true"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
-  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+  xmlns:core="sap.ui.core">
 
   <Page title="Marian Zeis - IT Consulting Marian Zeis">
 
@@ -27,12 +28,19 @@
       
       <!-- Contact Info -->
       <List headerText="Contact Information" items="{profileData>/contactInfo}">
-        <StandardListItem
-          title="{profileData>title}"
-          description="{profileData>description}"
-          type="{profileData>type}"
-          press="onNavigateToProfile"
-          app:link="{profileData>link}"/>
+        <CustomListItem class="sapMListItem reducedHeight clickableItem">
+          <FlexBox width="100%" direction="Column" class="sapUiTinyMarginBeginEnd reducedHeight">
+            <Link 
+              text="{profileData>title}" 
+              href="{profileData>link}" 
+              target="_blank" 
+              class="sapMSLITitle fullSizeLink" />
+            <Text 
+              text="{profileData>description}" 
+              class="sapMSLIDescription" 
+              visible="{= !!${profileData>description} }" />
+          </FlexBox>
+        </CustomListItem>
       </List>
 
 	  <!-- Projects -->
