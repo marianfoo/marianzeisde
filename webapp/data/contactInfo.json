@@ -1,0 +1,7 @@
+[
+  { "title": "LinkedIn", "type": "Navigation", "link": "https://www.linkedin.com/in/marianzeis" },
+  { "title": "GitHub", "type": "Navigation", "link": "https://github.com/marianfoo" },
+  { "title": "Email", "description": "marian@marianzeis.de", "type": "Active", "link": "mailto:marian@marianzeis.de" },
+  { "title": "Bluesky", "type": "Navigation", "link": "https://bsky.app/profile/marian.marianzeis.de" },
+  { "title": "Mastodon", "type": "Navigation", "link": "https://saptodon.org/@Mianbsp" }
+] 
