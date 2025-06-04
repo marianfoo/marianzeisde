@@ -20,7 +20,7 @@
                 
                 <Title text="Contact" level="H3" class="sapUiSmallMarginBottom"/>
                 <Text text="Telephone: +49 (0) 15207574495" class="sapUiTinyMarginBottom"/>
-                <Text text="E-Mail: marian@marianzeis.de" class="sapUiMediumMarginBottom"/>
+                <Text text="E-Mail: marian@zeis.de" class="sapUiMediumMarginBottom"/>
                 
                 <Title text="VAT ID" level="H3" class="sapUiSmallMarginBottom"/>
                 <Text text="VAT identification number according to § 27 a of the VAT Act:" class="sapUiTinyMarginBottom"/>
@@ -38,7 +38,7 @@
                 
                 <Title text="Kontakt" level="H3" class="sapUiSmallMarginBottom"/>
                 <Text text="Telefon: +49 (0) 15207574495" class="sapUiTinyMarginBottom"/>
-                <Text text="E-Mail: marian@marianzeis.de" class="sapUiMediumMarginBottom"/>
+                <Text text="E-Mail: marian@zeis.de" class="sapUiMediumMarginBottom"/>
                 
                 <Title text="Umsatzsteuer-ID" level="H3" class="sapUiSmallMarginBottom"/>
                 <Text text="Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:" class="sapUiTinyMarginBottom"/>

@@ -95,7 +95,7 @@ export default class Main extends BaseController {
 	}
 
 	public onSendEmail(): void {
-		const email = "marian@marianzeis.de";
+		const email = "marian@zeis.de";
 		const subject = "Contact from Website";
 		const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
 		window.location.href = mailtoLink;
