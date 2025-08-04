@@ -1,9 +1,10 @@
 [
   { "sort": 1, "title": "UI5 Spreadsheet Importer", "type": "Navigation", "description": "Easy Excel Upload for SAP UI5 Application", "link": "https://spreadsheet-importer.com/" },
-  { "sort": 2, "title": "UI5 Library Diff", "type": "Navigation", "description": "Tool to show differences between UI5 versions, making changelog reviews easier", "link": "https://marianfoo.github.io/ui5-lib-diff/" },
-  { "sort": 3, "title": "Best of CAPjs", "type": "Navigation", "description": "Website showcasing the best open source projects built for SAP Cloud Application Programming Model", "link": "https://bestofcapjs.org" },
-  { "sort": 4, "title": "Best of UI5", "type": "Navigation", "description": "Website showcasing the best open source projects built for SAP UI5", "link": "https://bestofui5.org/" },
-  { "sort": 5, "title": "Bluesky Bots", "type": "Navigation", "description": "Collection of bots running on the Bluesky social media platform", "link": "https://github.com/marianfoo/bluesky-bots" },
-  { "sort": 6, "title": "SAP RSS Feed Generator", "type": "Navigation", "description": "Custom RSS feed server to consume SAP Community blog posts", "link": "https://github.com/marianfoo/rss-scn" },
-  { "sort": 7, "title": "Devtoberfest Badge Checker", "type": "Navigation", "description": "UI5 App and express backend to check the Devtoberfest 2023 Badge", "link": "https://github.com/marianfoo/devtoberfest2023-badgechecker" }
-] 
+  { "sort": 2, "title": "MCP SAP Notes", "type": "Navigation", "description": "MCP Server to search and retrieve SAP Notes using SAP Passport authentication and Playwright automation", "link": "https://github.com/marianfoo/mcp-sap-notes" },
+  { "sort": 3, "title": "UI5 Library Diff", "type": "Navigation", "description": "Tool to show differences between UI5 versions, making changelog reviews easier", "link": "https://marianfoo.github.io/ui5-lib-diff/" },
+  { "sort": 4, "title": "Best of CAPjs", "type": "Navigation", "description": "Website showcasing the best open source projects built for SAP Cloud Application Programming Model", "link": "https://bestofcapjs.org" },
+  { "sort": 5, "title": "Best of UI5", "type": "Navigation", "description": "Website showcasing the best open source projects built for SAP UI5", "link": "https://bestofui5.org/" },
+  { "sort": 6, "title": "Bluesky Bots", "type": "Navigation", "description": "Collection of bots running on the Bluesky social media platform", "link": "https://github.com/marianfoo/bluesky-bots" },
+  { "sort": 7, "title": "SAP RSS Feed Generator", "type": "Navigation", "description": "Custom RSS feed server to consume SAP Community blog posts", "link": "https://github.com/marianfoo/rss-scn" },
+  { "sort": 8, "title": "Devtoberfest Badge Checker", "type": "Navigation", "description": "UI5 App and express backend to check the Devtoberfest 2023 Badge", "link": "https://github.com/marianfoo/devtoberfest2023-badgechecker" }
+]

@@ -21,10 +21,10 @@ export default class Main extends BaseController {
 			videos: []
 		});
 		this.getView().setModel(oModel, "profileData");
-		
+
 		// Load all data from JSON files
 		this.loadAllData();
-		
+
 		// Add event delegation for click handling
 		this.getView().addEventDelegate({
 			onAfterRendering: () => {
@@ -32,10 +32,10 @@ export default class Main extends BaseController {
 			}
 		});
 	}
-	
+
 	private loadAllData(): void {
 		const model = this.getView().getModel("profileData") as JSONModel;
-		
+
 		// Load each data file
 		this.loadJsonFile("contactInfo", model);
 		this.loadJsonFile("experience", model);
@@ -45,10 +45,10 @@ export default class Main extends BaseController {
 		this.loadJsonFile("presentations", model);
 		this.loadJsonFile("videos", model);
 	}
-	
+
 	private loadJsonFile(dataName: string, model: JSONModel): void {
 		const path = `./data/${dataName}.json`;
-		
+
 		// Use fetch API instead of jQuery.ajax
 		fetch(path)
 			.then(response => response.json())
@@ -60,7 +60,7 @@ export default class Main extends BaseController {
 				console.error(`Error loading ${dataName}:`, error);
 			});
 	}
-	
+
 	private setupClickHandlers(): void {
 		// Get all clickable list items and add click handlers
 		const clickableItems = document.querySelectorAll(".clickableItem");

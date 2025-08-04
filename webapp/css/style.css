@@ -1,8 +1,9 @@
 .companyNameTitle {
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     font-weight: bold !important;
     margin-bottom: 0.5rem !important;
     margin-left: 1rem !important;
+    color: #2c3e50 !important;
 }
 
 /* New styles for CustomListItem */
@@ -75,4 +76,71 @@
 
 .clickableItem:hover {
     background-color: #f0f0f0 !important;
+}
+
+/* Subtle improvements for better visual hierarchy */
+.sapMList {
+    margin-bottom: 1.5rem !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+}
+
+.sapMListHdr {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 0.5rem !important;
+}
+
+/* Better spacing for list items */
+.sapMSLI {
+    padding: 0.75rem 1rem !important;
+}
+
+.sapMSLI:hover {
+    background-color: #f8f9fa !important;
+    transition: background-color 0.2s ease !important;
+}
+
+/* Hero section styling */
+.heroSection {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    padding: 2rem !important;
+    border-radius: 1rem !important;
+    margin: 1rem !important;
+    margin-bottom: 2rem !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2) !important;
+}
+
+.heroSection .sapMOHIntro .sapMText {
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.heroSection .sapMObjectHeaderIntro,
+.heroSection .sapMObjectAttributeTitle,
+.heroSection .sapMObjectAttributeText {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Footer styling */
+.impressumLink {
+    display: inline-block !important;
+    margin-top: 1.5rem !important;
+    padding: 0.75rem 1.5rem !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 0.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+		text-shadow: none !important;
+}
+
+.impressumLink:hover {
+    background: #34495e !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.3) !important;
 }

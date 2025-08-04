@@ -3,5 +3,6 @@
   { "title": "GitHub", "type": "Navigation", "link": "https://github.com/marianfoo" },
   { "title": "Email", "description": "marian@zeis.de", "type": "Active", "link": "mailto:marian@zeis.de" },
   { "title": "Bluesky", "type": "Navigation", "link": "https://bsky.app/profile/marian.marianzeis.de" },
-  { "title": "Mastodon", "type": "Navigation", "link": "https://saptodon.org/@Mianbsp" }
-] 
+  { "title": "Mastodon", "type": "Navigation", "link": "https://saptodon.org/@Mianbsp" },
+	{ "title": "SAP Community", "type": "Navigation", "link": "https://community.sap.com/t5/user/viewprofilepage/user-id/61" }
+]

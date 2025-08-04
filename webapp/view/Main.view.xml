@@ -9,91 +9,92 @@
   <Page title="Marian Zeis - IT Consulting Marian Zeis">
 
     <content>
-      <!-- Company Name -->
-      <Title text="IT Consulting Marian Zeis" class="sapUiMediumMarginTop sapUiSmallMarginBottom companyNameTitle"/>
+      <!-- Hero Section -->
+      <VBox class="heroSection">
+        <!-- Company Name -->
+        <Title text="IT Consulting Marian Zeis" class="sapUiMediumMarginTop sapUiSmallMarginBottom companyNameTitle"/>
 
-      <!-- Personal Summary -->
-      <ObjectHeader
-        title="Marian Zeis"
-        intro="Independent SAP Developer"
-        icon="/data/profile.jpg"
-        iconDensityAware="false"
-        iconAlt="Marian Zeis">
-        <attributes>
-          <ObjectAttribute title="Location" text="Mainleus, Bavaria, Germany"/>
-        </attributes>
-      </ObjectHeader>
-      
+        <!-- Personal Summary -->
+        <ObjectHeader
+          title="Marian Zeis"
+          intro="Independent SAP Developer &amp; Open Source Enthusiast"
+          icon="/data/profile.jpg"
+          iconDensityAware="false"
+          iconAlt="Marian Zeis"
+          class="profileImage">
+          <attributes>
+            <ObjectAttribute title="Location" text="Mainleus, Bavaria, Germany"/>
+            <ObjectAttribute title="Specialization" text="SAP UI5, ABAP, Cloud Application Development"/>
+            <ObjectAttribute title="Community Role" text="DSAG AG UI-Technologies Speaker"/>
+          </attributes>
+        </ObjectHeader>
+      </VBox>
 
-      
       <!-- Contact Info -->
       <List headerText="Contact Information" items="{profileData>/contactInfo}">
-        <CustomListItem class="sapMListItem reducedHeight clickableItem">
+        <CustomListItem class="sapMListItem reducedHeight clickableItem contactItem">
           <FlexBox width="100%" direction="Column" class="sapUiTinyMarginBeginEnd reducedHeight">
-            <Link 
-              text="{profileData>title}" 
-              href="{profileData>link}" 
-              target="_blank" 
+            <Link
+              text="{profileData>title}"
+              href="{profileData>link}"
+              target="_blank"
               class="sapMSLITitle fullSizeLink" />
-            <Text 
-              text="{profileData>description}" 
-              class="sapMSLIDescription" 
+            <Text
+              text="{profileData>description}"
+              class="sapMSLIDescription"
               visible="{= !!${profileData>description} }" />
           </FlexBox>
         </CustomListItem>
       </List>
 
-	  <!-- Projects -->
-      <List headerText="Projects" items="{profileData>/projects}">
+      <!-- Featured Projects -->
+      <List headerText="Featured Projects" items="{profileData>/projects}">
         <StandardListItem
           title="{profileData>title}"
           description="{profileData>description}"
-		  type="{profileData>type}"
+          type="{profileData>type}"
           press="onNavigateToProfile"
+          class="projectCard"
+          app:link="{profileData>link}"/>
+      </List>
+
+      <!-- Blog Posts -->
+      <List headerText="Latest Blog Posts" items="{profileData>/blogPosts}">
+        <StandardListItem
+          title="{profileData>title}"
+          description="{profileData>date}"
+          type="Navigation"
+          press="onNavigateToProfile"
+          class="blogPostCard"
           app:link="{profileData>link}"/>
       </List>
 
       <!-- Professional Experience -->
-      <List headerText="Experience" items="{profileData>/experience}">
+      <List headerText="Professional Experience" items="{profileData>/experience}">
         <StandardListItem
           title="{profileData>title}"
-          description="{profileData>description}"/>
+          description="{profileData>description}"
+          class="experienceCard"/>
       </List>
-
-      <!-- Skills -->
-      <List headerText="Top Skills" items="{profileData>/topSkills}">
-        <StandardListItem title="{profileData>title}"/>
-      </List>
-
 
       <!-- Presentations -->
-      <List headerText="Presentations" items="{profileData>/presentations}">
+      <List headerText="Presentations &amp; Talks" items="{profileData>/presentations}">
         <CustomListItem class="customListItem">
           <VBox>
             <Title text="{profileData>title}" level="H3"/>
             <HBox items="{path: 'profileData>links', templateShareable:false}">
-              <Link 
-                text="{profileData>text}" 
-                href="{profileData>url}" 
-                target="_blank" 
+              <Link
+                text="{profileData>text}"
+                href="{profileData>url}"
+                target="_blank"
                 class="sapUiTinyMarginEnd"/>
             </HBox>
           </VBox>
         </CustomListItem>
       </List>
 
-      <!-- Blog Posts -->
-      <List headerText="Blog Posts" items="{profileData>/blogPosts}">
-        <StandardListItem
-          title="{profileData>title}"
-          description="{profileData>date}"
-          type="Navigation"
-          press="onNavigateToProfile"
-          app:link="{profileData>link}"/>
-      </List>
-
       <!-- Videos -->
-      <List headerText="Videos" items="{profileData>/videos}">
+      <List headerText="Video Content" items="{profileData>/videos}">
         <StandardListItem
           title="{profileData>title}"
           type="Navigation"
@@ -101,8 +102,11 @@
           app:link="{profileData>link}"/>
       </List>
 
-      <!-- Impressum Link -->
-      <Link text="Imprint" press="onNavigateToImpressum" class="sapUiTinyMarginTop sapUiTinyMarginBegin"/>
+      <!-- Footer -->
+      <VBox class="sapUiMediumMarginTop" alignItems="Center">
+        <Link text="Impressum / Legal Notice" press="onNavigateToImpressum" class="impressumLink"/>
+        <Text text="© 2024 IT Consulting Marian Zeis. All rights reserved." class="sapUiTinyMarginTop"/>
+      </VBox>
     </content>
   </Page>
 
