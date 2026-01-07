@@ -1,59 +1,279 @@
-.companyNameTitle {
-    font-size: 1.6rem !important;
-    font-weight: bold !important;
-    margin-bottom: 0.5rem !important;
-    margin-left: 1rem !important;
-    color: #2c3e50 !important;
+/* ============================================
+   Marian Zeis - Professional Portfolio Styles
+   Dark theme with warm terracotta accents
+   ============================================ */
+
+/* CSS Custom Properties for consistent theming */
+:root {
+    --color-bg-primary: #0f0f0f;
+    --color-bg-secondary: #1a1a1a;
+    --color-bg-card: #161616;
+    --color-bg-hover: #222222;
+    
+    --color-text-primary: #f0ebe3;
+    --color-text-secondary: #a8a29e;
+    --color-text-muted: #78716c;
+    
+    --color-accent: #d4836a;
+    --color-accent-hover: #e09a84;
+    --color-accent-subtle: rgba(212, 131, 106, 0.15);
+    
+    --color-border: #2a2a2a;
+    --color-border-hover: #3a3a3a;
+    
+    --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    
+    --transition-fast: 150ms ease;
+    --transition-normal: 250ms ease;
 }
 
-/* New styles for CustomListItem */
-.customListItem {
-    padding: 1rem !important;
-    background-color: #f8f9fa !important;
-    border-radius: 0.5rem !important;
+/* Global Reset & Base Styles */
+.sapUiBody {
+    background-color: var(--color-bg-primary) !important;
+    font-family: var(--font-body) !important;
+    color: var(--color-text-primary) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Override SAP UI5 Page component */
+.sapMPage {
+    background-color: var(--color-bg-primary) !important;
+}
+
+.sapMPageBgStandard {
+    background-color: var(--color-bg-primary) !important;
+}
+
+/* Page Header/Title Bar */
+.sapMPageHeader,
+.sapMBar {
+    background-color: var(--color-bg-secondary) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+}
+
+.sapMBarMiddle .sapMTitle {
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: var(--color-text-primary) !important;
+    letter-spacing: -0.01em !important;
+}
+
+/* Company Name Title */
+.companyNameTitle {
+    font-family: var(--font-heading) !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
     margin-bottom: 0.5rem !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    margin-left: 0 !important;
+    color: var(--color-text-primary) !important;
+    letter-spacing: -0.02em !important;
+}
+
+/* Hero Section - Clean dark card design */
+.heroSection {
+    background: var(--color-bg-card) !important;
+    border: 1px solid var(--color-border) !important;
+    color: var(--color-text-primary) !important;
+    padding: 2.5rem !important;
+    border-radius: var(--radius-lg) !important;
+    margin: 1.5rem !important;
+    margin-bottom: 2rem !important;
+    box-shadow: none !important;
+}
+
+.heroSection .sapMOHIntro .sapMText {
+    color: var(--color-accent) !important;
+    font-weight: 500 !important;
+    font-family: var(--font-body) !important;
+    font-size: 1rem !important;
+    letter-spacing: 0.02em !important;
+}
+
+/* Object Header in Hero */
+.heroSection .sapMOH {
+    background: transparent !important;
+}
+
+.heroSection .sapMOHTitle {
+    font-family: var(--font-heading) !important;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+    color: var(--color-text-primary) !important;
+    letter-spacing: -0.01em !important;
+}
+
+.heroSection .sapMObjectHeaderIntro,
+.heroSection .sapMObjectAttributeTitle {
+    color: var(--color-text-muted) !important;
+    font-family: var(--font-body) !important;
+    font-size: 0.85rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+.heroSection .sapMObjectAttributeText {
+    color: var(--color-text-secondary) !important;
+    font-family: var(--font-body) !important;
+    font-size: 0.95rem !important;
+}
+
+/* Profile Image */
+.heroSection .sapMOHIcon,
+.heroSection .sapMImg {
+    border-radius: var(--radius-md) !important;
+    border: 2px solid var(--color-border) !important;
+}
+
+/* List Components - Section Cards */
+.sapMList {
+    margin: 0 1.5rem 1.5rem 1.5rem !important;
+    border-radius: var(--radius-md) !important;
+    border: 1px solid var(--color-border) !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+    background: var(--color-bg-card) !important;
+}
+
+/* List Headers - Subtle accent style */
+.sapMListHdr,
+.sapMListHdrText,
+.sapMGHLI {
+    background: var(--color-bg-secondary) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    color: var(--color-text-primary) !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    padding: 0.875rem 1rem !important;
+    letter-spacing: 0.01em !important;
+}
+
+/* Style the header text */
+.sapMListHdr .sapMText,
+.sapMListHdrText .sapMText {
+    color: var(--color-text-primary) !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+}
+
+/* List Items - Standard */
+.sapMSLI,
+.sapMListTblCell,
+.sapMLIB {
+    background: var(--color-bg-card) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    padding: 1rem 1.25rem !important;
+    transition: background-color var(--transition-fast) !important;
+}
+
+.sapMSLI:last-child,
+.sapMLIB:last-child {
+    border-bottom: none !important;
+}
+
+.sapMSLI:hover,
+.sapMLIB:hover {
+    background-color: var(--color-bg-hover) !important;
+}
+
+/* List Item Title */
+.sapMSLITitle,
+.sapMSLITitleOnly {
+    color: var(--color-text-primary) !important;
+    font-family: var(--font-body) !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+}
+
+/* List Item Description */
+.sapMSLIDescription {
+    color: var(--color-text-secondary) !important;
+    font-family: var(--font-body) !important;
+    font-size: 0.9rem !important;
+    margin-top: 0.25rem !important;
+}
+
+/* Navigation Arrow */
+.sapMSLIType,
+.sapMLIBType {
+    color: var(--color-text-muted) !important;
+}
+
+.sapMSLI:hover .sapMSLIType,
+.sapMLIB:hover .sapMLIBType {
+    color: var(--color-accent) !important;
+}
+
+/* Custom List Item Styles */
+.customListItem {
+    padding: 1.25rem !important;
+    background-color: var(--color-bg-card) !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    box-shadow: none !important;
+}
+
+.customListItem:last-child {
+    border-bottom: none !important;
 }
 
 .customListItem .sapMTitle {
+    font-family: var(--font-body) !important;
     font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: var(--color-text-primary) !important;
     margin-bottom: 0.5rem !important;
 }
 
-.customListItem .sapMLink {
-    margin-right: 1rem !important;
-    color: #0a6ed1 !important;
+/* Links */
+.customListItem .sapMLink,
+.sapMLink {
+    color: var(--color-accent) !important;
     text-decoration: none !important;
+    font-family: var(--font-body) !important;
+    transition: color var(--transition-fast) !important;
 }
 
-.customListItem .sapMLink:hover {
-    text-decoration: underline !important;
+.customListItem .sapMLink:hover,
+.sapMLink:hover {
+    color: var(--color-accent-hover) !important;
+    text-decoration: none !important;
 }
 
 .customListItem .sapMHBox {
     flex-wrap: wrap !important;
+    gap: 0.75rem !important;
 }
 
 /* Reduced Height for Contact List Items */
 .reducedHeight {
-    padding-top: 0.2rem !important;
-    padding-bottom: 0.2rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
     min-height: 0 !important;
 }
 
 .reducedHeight .sapMSLITitle {
-    margin-bottom: 0.1rem !important;
+    margin-bottom: 0.125rem !important;
 }
 
 .reducedHeight .sapMSLIDescription {
     margin-top: 0 !important;
-    line-height: 1.2 !important;
+    line-height: 1.3 !important;
 }
 
-/* Make the entire contact list item clickable while preserving link hover */
+/* Clickable Items */
 .clickableItem {
     position: relative !important;
     cursor: pointer !important;
+    transition: background-color var(--transition-fast) !important;
 }
 
 .fullSizeLink {
@@ -62,6 +282,7 @@
     height: 100% !important;
     z-index: 2 !important;
     position: relative !important;
+    font-weight: 500 !important;
 }
 
 .clickableItem::after {
@@ -75,72 +296,256 @@
 }
 
 .clickableItem:hover {
-    background-color: #f0f0f0 !important;
+    background-color: var(--color-bg-hover) !important;
 }
 
-/* Subtle improvements for better visual hierarchy */
-.sapMList {
-    margin-bottom: 1.5rem !important;
-    border-radius: 0.5rem !important;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
-    overflow: hidden !important;
+/* Text Elements */
+.sapMText {
+    color: var(--color-text-secondary) !important;
+    font-family: var(--font-body) !important;
 }
 
-.sapMListHdr {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-    color: white !important;
-    font-weight: 600 !important;
-    padding: 0.5rem !important;
-}
-
-/* Better spacing for list items */
-.sapMSLI {
-    padding: 0.75rem 1rem !important;
-}
-
-.sapMSLI:hover {
-    background-color: #f8f9fa !important;
-    transition: background-color 0.2s ease !important;
-}
-
-/* Hero section styling */
-.heroSection {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-    color: white !important;
-    padding: 2rem !important;
-    border-radius: 1rem !important;
-    margin: 1rem !important;
-    margin-bottom: 2rem !important;
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2) !important;
-}
-
-.heroSection .sapMOHIntro .sapMText {
-    color: #fff !important;
-    font-weight: 500 !important;
-}
-
-.heroSection .sapMObjectHeaderIntro,
-.heroSection .sapMObjectAttributeTitle,
-.heroSection .sapMObjectAttributeText {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
-
-/* Footer styling */
+/* Footer / Impressum Link */
 .impressumLink {
     display: inline-block !important;
     margin-top: 1.5rem !important;
-    padding: 0.75rem 1.5rem !important;
-    background: #2c3e50 !important;
-    color: white !important;
+    padding: 0.75rem 1.75rem !important;
+    background: transparent !important;
+    color: var(--color-text-primary) !important;
+    border: 1px solid var(--color-border) !important;
     text-decoration: none !important;
-    border-radius: 0.5rem !important;
+    border-radius: var(--radius-sm) !important;
+    font-family: var(--font-body) !important;
     font-weight: 500 !important;
-    transition: all 0.2s ease !important;
-		text-shadow: none !important;
+    font-size: 0.9rem !important;
+    transition: all var(--transition-normal) !important;
+    text-shadow: none !important;
 }
 
 .impressumLink:hover {
-    background: #34495e !important;
+    background: var(--color-accent-subtle) !important;
+    border-color: var(--color-accent) !important;
+    color: var(--color-accent) !important;
     transform: translateY(-1px) !important;
-    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.3) !important;
+}
+
+/* Footer Text */
+.sapUiMediumMarginTop .sapMText {
+    color: var(--color-text-muted) !important;
+    font-size: 0.85rem !important;
+}
+
+/* Scrollbar Styling for WebKit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-border-hover);
+}
+
+/* Selection Color */
+::selection {
+    background: var(--color-accent-subtle);
+    color: var(--color-text-primary);
+}
+
+/* Additional SAP UI5 Overrides */
+.sapMPageEnableScrolling {
+    background: var(--color-bg-primary) !important;
+}
+
+.sapMPageBgSolid {
+    background: var(--color-bg-primary) !important;
+}
+
+/* Icon colors */
+.sapUiIcon {
+    color: var(--color-text-muted) !important;
+}
+
+.sapMSLI:hover .sapUiIcon,
+.sapMLIB:hover .sapUiIcon {
+    color: var(--color-accent) !important;
+}
+
+/* Focus ring styling - remove default blue, use accent color */
+*:focus,
+*:focus-visible {
+    outline: none !important;
+}
+
+.sapMLIB:focus,
+.sapMSLI:focus,
+.sapMCustomLI:focus,
+.sapMLIBFocusable:focus,
+.sapMLink:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Focus indication using subtle accent */
+.sapMLIB.sapMLIBFocused,
+.sapMLIBFocusable.sapMLIBFocused,
+.sapMCustomLI.sapMLIBFocused {
+    outline: 1px solid var(--color-accent) !important;
+    outline-offset: -1px !important;
+    box-shadow: none !important;
+}
+
+/* Remove the default blue outline on navigation */
+.sapMNavItem:focus,
+.sapMITBFilter:focus {
+    outline: none !important;
+}
+
+/* Additional focus state cleanup */
+[tabindex]:focus {
+    outline: none !important;
+}
+
+.sapMLIBActive,
+.sapMLIBSelected {
+    background-color: var(--color-bg-hover) !important;
+}
+
+/* Fix any remaining blue colors from SAP theme */
+.sapMListHighlight {
+    background-color: var(--color-accent) !important;
+}
+
+/* ============================================
+   Mobile Responsive Styles
+   ============================================ */
+
+@media screen and (max-width: 600px) {
+    /* Reduce hero section margins and padding on mobile */
+    .heroSection {
+        margin: 0.75rem !important;
+        margin-bottom: 1rem !important;
+        padding: 1.5rem !important;
+        border-radius: var(--radius-md) !important;
+    }
+    
+    /* Allow company name to wrap on mobile */
+    .companyNameTitle {
+        font-size: 1.5rem !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        line-height: 1.3 !important;
+    }
+    
+    /* Fix SAP UI5 Title truncation */
+    .companyNameTitle.sapMTitle {
+        max-width: 100% !important;
+        text-overflow: clip !important;
+        overflow: visible !important;
+        white-space: normal !important;
+    }
+    
+    /* Reduce object header title size */
+    .heroSection .sapMOHTitle {
+        font-size: 1.35rem !important;
+    }
+    
+    /* Smaller intro text */
+    .heroSection .sapMOHIntro .sapMText {
+        font-size: 0.9rem !important;
+    }
+    
+    /* Reduce attribute text sizes */
+    .heroSection .sapMObjectAttributeTitle {
+        font-size: 0.75rem !important;
+    }
+    
+    .heroSection .sapMObjectAttributeText {
+        font-size: 0.85rem !important;
+    }
+    
+    /* Reduce list margins for mobile */
+    .sapMList {
+        margin: 0 0.75rem 1rem 0.75rem !important;
+        border-radius: var(--radius-sm) !important;
+    }
+    
+    /* Smaller list items on mobile */
+    .sapMSLI,
+    .sapMListTblCell,
+    .sapMLIB {
+        padding: 0.875rem 1rem !important;
+    }
+    
+    /* Smaller list headers */
+    .sapMListHdr,
+    .sapMListHdrText,
+    .sapMGHLI {
+        padding: 0.75rem 1rem !important;
+        font-size: 0.875rem !important;
+    }
+    
+    /* Custom list item padding */
+    .customListItem {
+        padding: 1rem !important;
+    }
+    
+    /* Smaller footer button */
+    .impressumLink {
+        padding: 0.625rem 1.25rem !important;
+        font-size: 0.85rem !important;
+    }
+    
+    /* Page header title - smaller on mobile */
+    .sapMBarMiddle .sapMTitle {
+        font-size: 0.95rem !important;
+    }
+    
+    /* Profile image smaller on mobile */
+    .heroSection .sapMOHIcon,
+    .heroSection .sapMImg {
+        width: 56px !important;
+        height: 56px !important;
+    }
+    
+    /* Footer margin */
+    .sapUiMediumMarginTop {
+        margin-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    
+    /* Ensure content doesn't overflow */
+    .sapMPage,
+    .sapMPageBgStandard,
+    .sapMPageEnableScrolling {
+        overflow-x: hidden !important;
+    }
+}
+
+/* Extra small screens (under 380px) */
+@media screen and (max-width: 380px) {
+    .heroSection {
+        margin: 0.5rem !important;
+        padding: 1.25rem !important;
+    }
+    
+    .companyNameTitle {
+        font-size: 1.25rem !important;
+    }
+    
+    .heroSection .sapMOHTitle {
+        font-size: 1.2rem !important;
+    }
+    
+    .sapMList {
+        margin: 0 0.5rem 0.875rem 0.5rem !important;
+    }
 }
