@@ -1,5 +1,23 @@
 [
   {
+    "title": "DSAG Zukunftstag 2026",
+    "links": [
+      { "text": "Presentation", "url": "https://github.com/marianfoo/marianfoo/raw/main/DSAG-Zukunftstag26-ZeisMarian.pdf" }
+    ]
+  },
+  {
+    "title": "SIT Munich 25",
+    "links": [
+      { "text": "Presentation", "url": "https://github.com/marianfoo/marianfoo/raw/main/SITMUC25.pdf" }
+    ]
+  },
+  {
+    "title": "SAP TechEd 2025",
+    "links": [
+      { "text": "Presentation", "url": "https://github.com/marianfoo/marianfoo/raw/main/teched-2025.pdf" }
+    ]
+  },
+  {
     "title": "DSAG Jahreskongress 2024",
     "links": [
       { "text": "Präsentation", "url": "https://github.com/marianfoo/marianfoo/raw/main/DSAG-JK-2024-Umfrage.pdf" },
@@ -79,7 +97,7 @@
     "title": "SAP Inside Track Belgium 2022",
     "links": [
       { "text": "Presentation", "url": "https://github.com/marianfoo/marianfoo/raw/main/SITBE%20Best%20of%20Open%20Source%20SAP%20Projects.pdf" },
-      { "text": "SAP Open Source Projects Linklist", "url": "SAP_OpenSource.md" },
+      { "text": "SAP Open Source Projects Linklist", "url": "https://github.com/marianfoo/marianfoo/blob/main/SAP_OpenSource.md" },
       { "text": "Survey Data", "url": "https://github.com/marianfoo/marianfoo/raw/main/Survey_State_of_Open_Source.xlsx" }
     ]
   }

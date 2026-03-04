@@ -1,4 +1,5 @@
 [
+  { "title": "Blog", "description": "ABAP, SAP, AI, UI5, MCP – my main outlet for technical articles, benchmarks & tutorials", "type": "Navigation", "link": "https://blog.zeis.de/" },
   { "title": "LinkedIn", "type": "Navigation", "link": "https://www.linkedin.com/in/marianzeis" },
   { "title": "GitHub", "type": "Navigation", "link": "https://github.com/marianfoo" },
   { "title": "Email", "description": "marian@zeis.de", "type": "Active", "link": "mailto:marian@zeis.de" },
