@@ -6,28 +6,42 @@
   xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
   xmlns:core="sap.ui.core">
 
-  <Page title="Marian Zeis — SAP Developer &amp; Consultant" showHeader="true">
+  <Page title="Marian Zeis — SAP AI, UI5/Fiori &amp; ABAP/RAP" showHeader="true">
 
     <content>
       <!-- Hero Section -->
       <VBox class="heroSection">
         <!-- Company Name -->
-        <Title text="IT Consulting Marian Zeis" class="sapUiMediumMarginTop sapUiSmallMarginBottom companyNameTitle"/>
+        <Title text="IT Consulting Marian Zeis" class="sapUiSmallMarginBottom companyNameTitle"/>
 
         <!-- Personal Summary -->
-        <ObjectHeader
-          title="Marian Zeis"
-          intro="Independent SAP Developer &amp; Open Source Enthusiast"
-          icon="/data/profile.jpg"
-          iconDensityAware="false"
-          iconAlt="Marian Zeis"
-          class="profileImage">
-          <attributes>
-            <ObjectAttribute title="Location" text="Mainleus, Bavaria, Germany"/>
-            <ObjectAttribute title="Specialization" text="SAP UI5, ABAP, Cloud Application Development"/>
-            <ObjectAttribute title="Community Role" text="DSAG AG UI-Technologies Speaker"/>
-          </attributes>
-        </ObjectHeader>
+        <HBox class="heroMainRow" wrap="Wrap" alignItems="Start">
+          <Avatar
+            src="/data/profile.jpg"
+            displaySize="XL"
+            displayShape="Square"
+            class="heroAvatar"/>
+
+          <VBox class="heroProfileBlock">
+            <Title text="Marian Zeis" level="H2" class="heroProfileTitle"/>
+            <Text text="Independent SAP Developer and Consultant" class="heroSubTitle"/>
+
+            <HBox class="heroFocusTags" wrap="Wrap">
+              <Text text="AI Development in SAP" class="heroFocusTag"/>
+              <Text text="UI5 / Fiori Elements" class="heroFocusTag"/>
+              <Text text="ABAP / RAP Development" class="heroFocusTag"/>
+            </HBox>
+
+            <Text
+              text="I build enterprise-ready SAP solutions that combine practical AI workflows, modern UI5 frontends, and robust ABAP/RAP backends."
+              class="heroSummaryText"/>
+
+            <HBox class="heroMetaGroup" wrap="Wrap">
+              <Text text="Mainleus, Bavaria, Germany" class="heroMetaPill"/>
+              <Text text="DSAG AG UI-Technologies Speaker" class="heroMetaPill"/>
+            </HBox>
+          </VBox>
+        </HBox>
       </VBox>
 
       <!-- Contact Info -->
@@ -38,7 +52,7 @@
               text="{profileData>title}"
               href="{profileData>link}"
               target="_blank"
-              class="sapMSLITitle fullSizeLink" />
+              class="sapMSLITitle fullSizeLink contactTitleLink" />
             <Text
               text="{profileData>description}"
               class="sapMSLIDescription"
@@ -87,7 +101,7 @@
                 text="{profileData>text}"
                 href="{profileData>url}"
                 target="_blank"
-                class="sapUiTinyMarginEnd"/>
+                class="sapUiTinyMarginEnd presentationLink"/>
             </HBox>
           </VBox>
         </CustomListItem>
@@ -105,7 +119,7 @@
       <!-- Footer -->
       <VBox class="sapUiMediumMarginTop" alignItems="Center">
         <Link text="Impressum / Legal Notice" press="onNavigateToImpressum" class="impressumLink"/>
-        <Text text="© 2025 Marian Zeis" class="sapUiTinyMarginTop"/>
+        <Text text="© 2026 Marian Zeis" class="sapUiTinyMarginTop"/>
       </VBox>
     </content>
   </Page>
