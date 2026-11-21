@@ -10,7 +10,7 @@
             <VBox class="sapUiContentPadding">
                 <Title text="Impressum" level="H1" class="sapUiMediumMarginBottom"/>
 
-                <Title text="Angaben gemäß § 5 TMG" level="H2" class="sapUiSmallMarginBottom"/>
+                <Title text="Angaben gemäß § 5 DDG" level="H2" class="sapUiSmallMarginBottom"/>
                 <Text text="IT Consulting Marian Zeis" class="sapUiTinyMarginBottom businessName"/>
                 <Text text="Inhaber: Marian Zeis" class="sapUiTinyMarginBottom"/>
                 <Text text="Hünleinshaus 1" class="sapUiTinyMarginBottom"/>
@@ -28,7 +28,7 @@
 
                 <!-- German Version -->
                 <Title text="Impressum" level="H2" class="sapUiSmallMarginBottom"/>
-                <Text text="Angaben gemäß § 5 TMG" class="sapUiTinyMarginBottom"/>
+                <Text text="Angaben gemäß § 5 DDG" class="sapUiTinyMarginBottom"/>
                 <Text text="IT Consulting Marian Zeis" class="sapUiTinyMarginBottom"/>
                 <Text text="Marian Zeis" class="sapUiTinyMarginBottom"/>
                 <Text text="Hünleinshaus 1" class="sapUiTinyMarginBottom"/>
