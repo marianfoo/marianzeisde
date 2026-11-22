@@ -1,5 +1,6 @@
 [
   {
+    "id": "podcast-we-love-output-2026",
     "title": "We ❤️ Output",
     "meta": "Nov 2026 · Recorded in Bamberg · Release pending",
     "description": "Frank Engert and I recorded a conversation about AI agents, ARC-1 and our DemoJam win.",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "podcast-teched-2026-agentic-ai",
     "title": "From Clean Core to Agentic AI",
     "meta": "29 Oct 2026 · SAP TechEd live video podcast",
     "description": "Jan Penninkhof, Twan van den Broek and I discussed what agentic AI means for SAP developers.",
@@ -26,6 +28,7 @@
     ]
   },
   {
+    "id": "podcast-education-newscast-421",
     "title": "Wie verändert KI Rolle und Aufgaben von Software-Entwicklern?",
     "meta": "21 Sep 2026 · Education NewsCast #421 · German",
     "description": "A conversation about where AI helps in day-to-day software development and how it changes the work of an SAP developer.",
@@ -41,6 +44,7 @@
     ]
   },
   {
+    "id": "podcast-sap-on-aws-10",
     "title": "MCP servers and SAP AI Models",
     "meta": "17 Jun 2026 · SAP on AWS for Builders #10",
     "description": "Watch our discussion of SAP models and connecting assistants to ABAP with ARC-1.",
@@ -52,6 +56,7 @@
     ]
   },
   {
+    "id": "podcast-sap-on-azure-292",
     "title": "ABAP development with ARC-1",
     "meta": "5 Jun 2026 · SAP on Azure #292",
     "description": "A walkthrough of how an assistant works with ABAP Development Tools through ARC-1.",
@@ -71,6 +76,7 @@
     ]
   },
   {
+    "id": "podcast-sap-on-azure-269",
     "title": "MCP with BTP – AI Data Enabler",
     "meta": "28 Nov 2025 · SAP on Azure #269",
     "description": "With Wouter Lemaire and Tom Cenens on connecting AI assistants to SAP data.",
@@ -90,6 +96,7 @@
     ]
   },
   {
+    "id": "podcast-sap-sommeliers-61",
     "title": "CAP vs RAP – Was muss man dazu wissen?",
     "meta": "3 Apr 2024 · SAP Sommeliers #61 · German",
     "description": "Volker Buzek and I discussed when to choose CAP or RAP for an SAP application.",
@@ -105,6 +112,7 @@
     ]
   },
   {
+    "id": "podcast-sap-on-azure-163",
     "title": "UI5 Spreadsheet Importer",
     "meta": "6 Oct 2023 · SAP on Azure #163",
     "description": "A demo of importing spreadsheet data into SAPUI5 applications.",
@@ -124,6 +132,7 @@
     ]
   },
   {
+    "id": "podcast-ui5-newscast-030",
     "title": "UI5 Community – Contributor Experiences",
     "meta": "30 Sep 2022 · UI5 NewsCast #030",
     "description": "The audio edition of our UI5con panel on building and maintaining community projects.",
@@ -139,6 +148,7 @@
     ]
   },
   {
+    "id": "podcast-ui5-newscast-029",
     "title": "UI5con HYBRID 2022 – Participants’ Impressions and Stories",
     "meta": "5 Aug 2022 · UI5 NewsCast #029",
     "description": "Christoph Haffner spoke with developers at UI5con. I was one of the participants interviewed.",
@@ -150,6 +160,7 @@
     ]
   },
   {
+    "id": "podcast-coffee-corner-radio-59",
     "title": "UI5con Recap",
     "meta": "14 Jul 2022 · Coffee Corner Radio #59",
     "description": "Jakob and I joined Martin to look back at the hybrid UI5con and the open-source projects presented there.",

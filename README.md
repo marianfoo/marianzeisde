@@ -17,6 +17,7 @@ Open [localhost:8080](http://localhost:8080/). The build uses the checked-in art
 
 - Edit project, talk, podcast, video and profile entries in `webapp/data/`. The `featured` flag selects projects and talks for the homepage. A talk resource with `"kind": "video"` also appears in the recording index. The homepage shows the three newest talk recordings and any standalone demos marked `featured`. Keep talks and podcasts in reverse chronological order.
 - The homepage template is `webapp/index.html`. The shared layout, history and legal notice templates are in `templates/`. Skyzo has standalone pages under `webapp/skyzo/`.
+- The build uses the same portfolio entries for HTML, the Markdown alternatives at `/index.html.md` and `/history/index.html.md`, and the combined `/llms-full.txt`. The reading index is `/llms.txt`. Keep existing entry IDs when editing titles so links to individual talks, projects, demos and podcast appearances continue to work.
 - The Pages workflow builds on pushes to `main`, on manual dispatch and daily at 05:17 UTC. It fetches the posts-only RSS feed from blog.zeis.de, deduplicates by URL, orders by publication time and renders the latest five entries into the HTML. A failed refresh stops publication, so the previous deployment stays online.
 - The daily check skips publication when the homepage is unchanged. A monthly workflow renewal keeps the schedule active during long gaps between repository changes.
 - PostHog uses the portfolio’s existing EU project. Skyzo uses its own static pages and styling.

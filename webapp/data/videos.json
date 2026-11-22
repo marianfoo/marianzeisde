@@ -1,5 +1,6 @@
 [
   {
+    "id": "demo-arc-1-demo",
     "title": "ARC-1 interactive demo",
     "meta": "Interactive replay",
     "description": "Explore an ABAP development session in the browser, including the tools the assistant calls.",
@@ -7,18 +8,21 @@
     "featured": true
   },
   {
+    "id": "demo-spreadsheet-importer-v1",
     "title": "UI5 Spreadsheet Importer V1",
     "meta": "24 Oct 2024 · Marian Zeis",
     "description": "A hands-on walkthrough of the importer in UI5 freestyle and Fiori elements applications.",
     "link": "https://www.youtube.com/watch?v=-e8lB_-laiQ"
   },
   {
+    "id": "demo-ui5ers-live-18",
     "title": "Best of UI5",
     "meta": "Sep 2022 · UI5ers live #18",
     "description": "My showcase starts at 6:08 in the UI5 community broadcast.",
     "link": "https://www.youtube.com/watch?v=vYd0-wzcZrU&t=368s"
   },
   {
+    "id": "demo-ui5ers-live-11",
     "title": "A real-world SAPUI5 barcode scanner",
     "meta": "Jan 2022 · UI5ers live #11",
     "description": "My barcode scanner demo starts at 8:34.",

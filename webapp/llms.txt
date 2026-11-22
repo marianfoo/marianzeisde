@@ -1,18 +1,23 @@
 # Marian Zeis
 
-> Independent SAP developer and consultant in Mainleus, Germany. Marian develops ARC-1 and other open-source tools for ABAP, SAPUI5 and the Model Context Protocol.
+> Marian Zeis is an independent SAP developer and consultant in Mainleus, Germany. He builds ARC-1, an open-source Model Context Protocol (MCP) server for ABAP development, and speaks on SAP development and UI5.
 
-## Portfolio
+## Portfolio and sources
 
-- [Projects](https://zeis.de/#projects)
-- [Talks, slides and professional history](https://zeis.de/history/)
-- [Podcast appearances](https://zeis.de/#podcasts)
-- [Videos and demos](https://zeis.de/#videos)
-- [Contact and public profiles](https://zeis.de/#contact)
+- [Profile, projects and podcasts](https://zeis.de/index.html.md): Project descriptions, recent blog posts, podcast appearances and public profiles. Each entry links to its original source.
+- [Talks and professional history](https://zeis.de/history/index.html.md): Conference appearances by year with event dates, co-presenters, PDFs, recordings and demos. Includes SAP TechEd, DSAG, UI5con, SAP Inside Track and Devtoberfest.
+- [Portfolio in HTML](https://zeis.de/): Public profile with links to individual projects and podcast appearances.
+- [Talk archive in HTML](https://zeis.de/history/): Individual talks have permanent links for citation.
 
-## First-hand technical material
+## Technical work
 
-- [Marian’s blog](https://blog.zeis.de/): articles and experiments.
-- [Blog RSS](https://blog.zeis.de/posts/index.xml): dated article titles and permanent links.
-- [ARC-1](https://arc-1-mcp.com/): project and documentation.
+- [ARC-1](https://arc-1-mcp.com/): ABAP development tools for AI assistants using SAP ADT.
+- [Marian’s blog](https://blog.zeis.de/): First-hand technical articles and project updates.
+- [Blog RSS](https://blog.zeis.de/posts/index.xml): Dated posts and their original URLs.
 - [SAP AI tools directory](https://sap-ai-tools.marianzeis.de/): Marian’s catalog of SAP and community tools.
+
+## Optional
+
+- [Complete portfolio in one text file](https://zeis.de/llms-full.txt): Profile, projects, podcast appearances, talks, demos, work history and sources.
+- [Skyzo](https://zeis.de/skyzo/): Marian’s offline Android card game, with rules and app information in German and English.
+- [Legal notice](https://zeis.de/impressum/): Business and contact details for IT Consulting Marian Zeis.

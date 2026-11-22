@@ -1,5 +1,6 @@
 [
   {
+    "id": "talk-teched-2026-agentic-ai",
     "year": 2026,
     "title": "SAP TechEd · From Clean Core to Agentic AI",
     "meta": "29 Oct 2026 · SAP TechEd · Live video podcast",
@@ -17,6 +18,7 @@
     "featured": true
   },
   {
+    "id": "talk-teched-2026-demojam",
     "year": 2026,
     "title": "SAP TechEd Berlin · DemoJam winners",
     "meta": "27 Oct 2026 · Berlin",
@@ -38,6 +40,7 @@
     "featured": true
   },
   {
+    "id": "talk-devtoberfest-2026-mcp",
     "year": 2026,
     "title": "SAP Devtoberfest · AI-assisted SAP development with MCP",
     "meta": "16 Oct 2026 · Online",
@@ -51,6 +54,7 @@
     ]
   },
   {
+    "id": "talk-dsag-2026-v097",
     "year": 2026,
     "title": "DSAG Jahreskongress · SAP und KI richtig einordnen: Zwischen Kontext, Kontrolle und Nutzen",
     "meta": "7 Oct 2026 · Cologne · V097",
@@ -71,6 +75,7 @@
     ]
   },
   {
+    "id": "talk-dsag-2026-v099",
     "year": 2026,
     "title": "DSAG Jahreskongress · Die Zukunft der ABAP Entwicklung",
     "meta": "7 Oct 2026 · Cologne · V099",
@@ -87,6 +92,7 @@
     ]
   },
   {
+    "id": "talk-sit-weinheim-2026",
     "year": 2026,
     "title": "SAP Inside Track Weinheim · AI-assisted SAP development with MCP",
     "meta": "19 Sep 2026 · Weinheim",
@@ -108,6 +114,7 @@
     ]
   },
   {
+    "id": "talk-sit-sydney-2026",
     "year": 2026,
     "title": "SAP Inside Track Sydney · AI-assisted SAP development with MCP",
     "meta": "4 Sep 2026 · Sydney · Remote speaker",
@@ -128,6 +135,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2026-mcp-apps",
     "year": 2026,
     "title": "UI5con · UI5 has entered the chat – AI, MCP Apps and UI5",
     "meta": "14 Jul 2026 · St. Leon-Rot",
@@ -153,6 +161,7 @@
     ]
   },
   {
+    "id": "talk-dsag-ui-2026-fiori-mcp",
     "year": 2026,
     "title": "DSAG AG UI-Technologien · KI-gestützte App-Entwicklung mit SAP Fiori elements",
     "meta": "19 May 2026 · St. Leon-Rot",
@@ -169,6 +178,7 @@
     ]
   },
   {
+    "id": "talk-bettercode-abap-2026",
     "year": 2026,
     "title": "betterCode() ABAP · RAP und SAP Fiori Elements steuern: Annotationen richtig einsetzen",
     "meta": "29 Apr 2026 · Online",
@@ -189,6 +199,7 @@
     ]
   },
   {
+    "id": "talk-dsag-webinar-2026-rap-mcp",
     "year": 2026,
     "title": "DSAG webinar · SAP-Entwicklung mit KI, Fiori elements, RAP und Open-Source-MCP-Servern",
     "meta": "16 Apr 2026 · Online",
@@ -205,6 +216,7 @@
     ]
   },
   {
+    "id": "talk-dsag-2026-v091",
     "year": 2026,
     "title": "DSAG Technologietage · KI-gestützte App-Entwicklung mit SAP Fiori elements",
     "meta": "18 Mar 2026 · Hamburg · V091",
@@ -221,6 +233,7 @@
     ]
   },
   {
+    "id": "talk-dsag-2026-v108",
     "year": 2026,
     "title": "DSAG Technologietage · Roundtable KI – Aktuelle Herausforderungen und Lösungswege",
     "meta": "18 Mar 2026 · Hamburg · V108",
@@ -233,6 +246,7 @@
     ]
   },
   {
+    "id": "talk-dsag-technologietage-2026-panel",
     "year": 2026,
     "title": "DSAG Technologietage · KI, Datenstrategie und Security",
     "meta": "17 Mar 2026 · Hamburg · Opening panel",
@@ -249,6 +263,7 @@
     ]
   },
   {
+    "id": "talk-dsag-zukunftstag-2026",
     "year": 2026,
     "title": "DSAG Zukunftstag Development · Fiori elements and ABAP development with AI",
     "meta": "10 Feb 2026 · Hockenheim",
@@ -269,6 +284,7 @@
     ]
   },
   {
+    "id": "talk-teched-2025-ct1264",
     "year": 2025,
     "title": "SAP TechEd · Generate and extend apps based on SAP Fiori elements with Joule using MCP servers",
     "meta": "5 Nov 2025 · Berlin · CT1264",
@@ -284,6 +300,7 @@
     ]
   },
   {
+    "id": "talk-devtoberfest-2025-tooling",
     "year": 2025,
     "title": "SAP Devtoberfest · End to End UI5 Tooling",
     "meta": "21 Oct 2025 · Online",
@@ -305,6 +322,7 @@
     ]
   },
   {
+    "id": "talk-devtoberfest-2025-mockserver",
     "year": 2025,
     "title": "SAP Devtoberfest · UI5 Middleware FE Mockserver in Practice",
     "meta": "14 Oct 2025 · Online",
@@ -326,6 +344,7 @@
     ]
   },
   {
+    "id": "talk-sit-munich-2025",
     "year": 2025,
     "title": "SAP Inside Track Munich · Open-Source Joule for Consultants",
     "meta": "11 Oct 2025 · Munich",
@@ -347,6 +366,7 @@
     ]
   },
   {
+    "id": "talk-fiori-roundtable-2024-survey",
     "year": 2024,
     "title": "SAP Fiori elements and tools roundtable · UI5 app usage in production",
     "meta": "13 Nov 2024 · Partner roundtable",
@@ -359,6 +379,7 @@
     ]
   },
   {
+    "id": "talk-dsag-2024-v084",
     "year": 2024,
     "title": "DSAG Jahreskongress · Realität trifft Marketing",
     "meta": "16 Oct 2024 · Leipzig · V084",
@@ -379,6 +400,7 @@
     ]
   },
   {
+    "id": "talk-sit-munich-2024",
     "year": 2024,
     "title": "SAP Inside Track Munich · UI5 Spreadsheet Importer Release v1",
     "meta": "12 Oct 2024 · Munich",
@@ -399,6 +421,7 @@
     ]
   },
   {
+    "id": "talk-sit-belgium-2024",
     "year": 2024,
     "title": "SAP Inside Track Belgium · UI5 Spreadsheet Importer V1 Release",
     "meta": "21 Sep 2024 · Zaventem",
@@ -414,6 +437,7 @@
     ]
   },
   {
+    "id": "talk-dsag-webinar-2024-importer",
     "year": 2024,
     "title": "DSAG Development webinar · UI5 Spreadsheet Importer",
     "meta": "10 Sep 2024 · Online",
@@ -430,6 +454,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2024-development-environment",
     "year": 2024,
     "title": "UI5con · Seamless Integration: Crafting the Perfect UI5 Development Environment",
     "meta": "5 Jun 2024 · St. Leon-Rot",
@@ -455,6 +480,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2024-survey",
     "year": 2024,
     "title": "UI5con · How UI5 apps are used in production",
     "meta": "5 Jun 2024 · St. Leon-Rot",
@@ -480,6 +506,7 @@
     ]
   },
   {
+    "id": "talk-recap-2024-best-of-capjs",
     "year": 2024,
     "title": "reCAP · CAP Community – Best of CAPJS",
     "meta": "4 Jun 2024 · St. Leon-Rot",
@@ -500,6 +527,7 @@
     ]
   },
   {
+    "id": "talk-recap-2024-development-environment",
     "year": 2024,
     "title": "reCAP · Seamless Integration: Crafting the Perfect CAP+UI5 Development Environment",
     "meta": "4 Jun 2024 · St. Leon-Rot",
@@ -520,6 +548,7 @@
     ]
   },
   {
+    "id": "talk-sapinsider-2023-fiori-elements",
     "year": 2023,
     "title": "SAPinsider EMEA · How to Speed up Your Application Development with Fiori Elements",
     "meta": "Nov 2023 · Copenhagen · Breakout session",
@@ -535,6 +564,7 @@
     ]
   },
   {
+    "id": "talk-sapinsider-2023-cafe",
     "year": 2023,
     "title": "SAPinsider EMEA · An In-Depth Discussion about Fiori Elements",
     "meta": "Nov 2023 · Copenhagen · Café session",
@@ -547,6 +577,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2023-excel-upload",
     "year": 2023,
     "title": "UI5con · Excel Upload in UI5 made easy with Open Source",
     "meta": "6 Jul 2023 · St. Leon-Rot",
@@ -580,6 +611,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2023-framework-panel",
     "year": 2023,
     "title": "UI5con · When to use which UI framework or tool in SAP-verse",
     "meta": "6 Jul 2023 · St. Leon-Rot · Panel",
@@ -597,6 +629,7 @@
     ]
   },
   {
+    "id": "talk-dsag-technologietage-2023",
     "year": 2023,
     "title": "DSAG Technologietage · Excel Upload in Fiori – leicht gemacht mit Open Source",
     "meta": "22 Mar 2023 · Mannheim",
@@ -613,6 +646,7 @@
     ]
   },
   {
+    "id": "talk-sit-belgium-2022",
     "year": 2022,
     "title": "SAP Inside Track Belgium · Best of Open Source SAP Community Projects",
     "meta": "24 Sep 2022 · Kontich",
@@ -636,6 +670,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2022-contributor-panel",
     "year": 2022,
     "title": "UI5con · UI5 Community – Contributor Experiences",
     "meta": "8 Jul 2022 · Hybrid · Panel",
@@ -657,6 +692,7 @@
     ]
   },
   {
+    "id": "talk-ui5con-2022-best-of-ui5",
     "year": 2022,
     "title": "UI5con · Best of UI5",
     "meta": "7 Jul 2022 · Hybrid",

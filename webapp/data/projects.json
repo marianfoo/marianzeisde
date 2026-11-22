@@ -1,5 +1,6 @@
 [
   {
+    "id": "project-arc-1",
     "title": "ARC-1 · ABAP development with AI",
     "description": "My open-source MCP server connects AI assistants to SAP through ADT. Read ABAP source, inspect a short dump or run ABAP Unit with the permissions of the signed-in SAP user.",
     "link": "https://arc-1-mcp.com/",
@@ -8,6 +9,7 @@
     "featured": true
   },
   {
+    "id": "project-sap-docs-mcp",
     "title": "SAP Docs MCP",
     "description": "Search UI5, CAP and ABAP documentation from an AI assistant, and open the underlying source for each result.",
     "link": "https://github.com/marianfoo/mcp-sap-docs",
@@ -16,6 +18,7 @@
     "featured": true
   },
   {
+    "id": "project-sap-mcp-servers",
     "title": "SAP MCP Servers",
     "description": "Look up APIs in SAP Business Accelerator Hub, search SAP Notes and explore the product road map through MCP.",
     "link": "https://github.com/marianfoo/sap-mcp-servers",
@@ -24,6 +27,7 @@
     "featured": true
   },
   {
+    "id": "project-sap-ai-tools",
     "title": "SAP AI tools directory",
     "description": "I curate this catalog of MCP servers and skills contributed by SAP and the developer community.",
     "link": "https://sap-ai-tools.marianzeis.de/",
@@ -32,6 +36,7 @@
     "featured": true
   },
   {
+    "id": "project-open-rfc",
     "title": "open-rfc",
     "description": "Call SAP remote-enabled function modules from Node.js without installing the native SAP NetWeaver RFC SDK.",
     "link": "https://blog.zeis.de/posts/2026-08-10-open-rfc/",
@@ -39,6 +44,7 @@
     "sort": 5
   },
   {
+    "id": "project-abap-mcp-server",
     "sort": 6,
     "title": "ABAP MCP Server",
     "type": "Navigation",
@@ -46,6 +52,7 @@
     "link": "https://github.com/marianfoo/abap-mcp-server"
   },
   {
+    "id": "project-abap-code-benchmark",
     "sort": 7,
     "title": "LLM Benchmark ABAP Code Generation",
     "type": "Navigation",
@@ -53,6 +60,7 @@
     "link": "https://github.com/marianfoo/LLM-Benchmark-ABAP-Code-Generation"
   },
   {
+    "id": "project-network-request-copier",
     "sort": 8,
     "title": "Network Request and Response Copier",
     "type": "Navigation",
@@ -60,6 +68,7 @@
     "link": "https://github.com/marianfoo/chrome-extension-copynetworkrequests"
   },
   {
+    "id": "project-ui5-odata-recorder",
     "sort": 9,
     "title": "UI5 OData Recorder",
     "type": "Navigation",
@@ -67,6 +76,7 @@
     "link": "https://github.com/marianfoo/ui5-middleware-odata-recorder"
   },
   {
+    "id": "project-ui5-library-diff",
     "sort": 10,
     "title": "UI5 Library Diff",
     "type": "Navigation",
@@ -74,6 +84,7 @@
     "link": "https://github.com/marianfoo/ui5-lib-diff"
   },
   {
+    "id": "project-ui5-spreadsheet-importer",
     "sort": 11,
     "title": "UI5 Spreadsheet Importer",
     "type": "Navigation",
