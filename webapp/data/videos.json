@@ -1,7 +1,41 @@
 [
-  { "title": "My YouTube channel", "link": "https://www.youtube.com/@marianzeis4687" },
-  { "title": "UI5con HYBRID 2022: UI5 Community – Contributor Experiences (Panel Discussion)", "link": "https://www.youtube.com/watch?v=KOsQt-arDzs" },
-  { "title": "UI5con HYBRID 2022: UI5 Community – Best of UI5", "link": "https://www.youtube.com/watch?v=pOE3NKO_gk4" },
-  { "title": "UI5ers live #18: Showcase Best Of UI5", "link": "https://www.youtube.com/watch?v=vYd0-wzcZrU&t=368s" },
-  { "title": "UI5ers live ##11: Barcode Scanner -> showing a Real World Example with SAPUI5 Barcode Scanner App", "link": "https://www.youtube.com/watch?v=ksx7zhp_kkI&t=514s" }
-] 
+  {
+    "title": "AI-assisted SAP development with MCP",
+    "meta": "16 Oct 2026 · SAP Devtoberfest",
+    "description": "Watch the SAP Developers session on using MCP with ABAP development tools.",
+    "link": "https://www.youtube.com/watch?v=b6eGA00UpkI"
+  },
+  {
+    "title": "ARC-1 interactive demo",
+    "meta": "Interactive replay",
+    "description": "Explore an ABAP development session in the browser, including the tools the assistant calls.",
+    "link": "https://live-arc-1.arc-1-mcp.com/"
+  },
+  {
+    "title": "How UI5 apps are used in production",
+    "meta": "2024 · UI5con",
+    "description": "Volker Buzek and I shared the results of our survey.",
+    "link": "https://www.youtube.com/watch?v=MSdGLG2zLy8&t=11125s",
+    "archive": true
+  },
+  {
+    "title": "UI5con HYBRID 2022: UI5 Community – Contributor Experiences (Panel Discussion)",
+    "link": "https://www.youtube.com/watch?v=KOsQt-arDzs",
+    "archive": true
+  },
+  {
+    "title": "UI5con HYBRID 2022: UI5 Community – Best of UI5",
+    "link": "https://www.youtube.com/watch?v=pOE3NKO_gk4",
+    "archive": true
+  },
+  {
+    "title": "UI5ers live #18: Showcase Best Of UI5",
+    "link": "https://www.youtube.com/watch?v=vYd0-wzcZrU&t=368s",
+    "archive": true
+  },
+  {
+    "title": "UI5ers live #11 · A real-world SAPUI5 barcode scanner",
+    "link": "https://www.youtube.com/watch?v=ksx7zhp_kkI&t=514s",
+    "archive": true
+  }
+]

@@ -1,69 +1,80 @@
 [
   {
+    "title": "ARC-1 · ABAP development with AI",
+    "description": "My open-source MCP server connects AI assistants to SAP through ADT. Read ABAP source, inspect a short dump or run ABAP Unit with the permissions of the signed-in SAP user.",
+    "link": "https://arc-1-mcp.com/",
+    "type": "Navigation",
     "sort": 1,
-    "title": "arc-1",
-    "type": "Navigation",
-    "description": "New project focused on AI-assisted SAP development workflows and tooling.",
-    "link": "https://github.com/marianfoo/arc-1"
+    "featured": true
   },
   {
+    "title": "SAP Docs MCP",
+    "description": "Search UI5, CAP and ABAP documentation from an AI assistant, and open the underlying source for each result.",
+    "link": "https://github.com/marianfoo/mcp-sap-docs",
+    "type": "Navigation",
     "sort": 2,
-    "title": "SAP AI MCP Servers",
-    "type": "Navigation",
-    "description": "Curated overview of SAP MCP servers and SAP AI skills across official and community ecosystems.",
-    "link": "https://github.com/marianfoo/sap-ai-mcp-servers"
+    "featured": true
   },
   {
+    "title": "SAP MCP Servers",
+    "description": "Look up APIs in SAP Business Accelerator Hub, search SAP Notes and explore the product road map through MCP.",
+    "link": "https://github.com/marianfoo/sap-mcp-servers",
+    "type": "Navigation",
     "sort": 3,
+    "featured": true
+  },
+  {
+    "title": "SAP AI tools directory",
+    "description": "I curate this catalog of MCP servers and skills contributed by SAP and the developer community.",
+    "link": "https://sap-ai-tools.marianzeis.de/",
+    "type": "Navigation",
+    "sort": 4,
+    "featured": true
+  },
+  {
+    "title": "open-rfc",
+    "description": "Call SAP remote-enabled function modules from Node.js without installing the native SAP NetWeaver RFC SDK.",
+    "link": "https://blog.zeis.de/posts/2026-08-10-open-rfc/",
+    "type": "Navigation",
+    "sort": 5
+  },
+  {
+    "sort": 6,
     "title": "ABAP MCP Server",
     "type": "Navigation",
     "description": "ABAP-focused MCP server with search, docs, and ABAP-focused AI context endpoints.",
     "link": "https://github.com/marianfoo/abap-mcp-server"
   },
   {
-    "sort": 4,
-    "title": "MCP SAP Docs",
-    "type": "Navigation",
-    "description": "MCP server for SAP docs including UI5, CAP, ABAP, and SAP Cloud SDK resources.",
-    "link": "https://github.com/marianfoo/mcp-sap-docs"
-  },
-  {
-    "sort": 5,
-    "title": "MCP SAP Notes",
-    "type": "Navigation",
-    "description": "MCP server to search and retrieve SAP Notes with SAP Passport authentication.",
-    "link": "https://github.com/marianfoo/mcp-sap-notes"
-  },
-  {
-    "sort": 6,
+    "sort": 7,
     "title": "LLM Benchmark ABAP Code Generation",
     "type": "Navigation",
     "description": "Benchmark project for comparing model quality on ABAP code generation and feedback loops.",
     "link": "https://github.com/marianfoo/LLM-Benchmark-ABAP-Code-Generation"
   },
   {
-    "sort": 7,
+    "sort": 8,
     "title": "Network Request and Response Copier",
     "type": "Navigation",
     "description": "Chrome DevTools extension for exporting request and response data with OData support.",
     "link": "https://github.com/marianfoo/chrome-extension-copynetworkrequests"
   },
   {
-    "sort": 8,
+    "sort": 9,
     "title": "UI5 OData Recorder",
     "type": "Navigation",
     "description": "Record OData traffic from UI5 apps and generate data for FE mock server workflows.",
     "link": "https://github.com/marianfoo/ui5-middleware-odata-recorder"
   },
   {
-    "sort": 9,
+    "sort": 10,
     "title": "UI5 Library Diff",
     "type": "Navigation",
     "description": "Tooling to compare differences between UI5 versions for faster upgrade checks.",
     "link": "https://github.com/marianfoo/ui5-lib-diff"
   },
   {
-    "sort": 10,
+    "sort": 11,
     "title": "UI5 Spreadsheet Importer",
     "type": "Navigation",
     "description": "Open source UI5 component for spreadsheet import in UI5 and Fiori elements applications.",

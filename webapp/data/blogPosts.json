@@ -1,32 +1,27 @@
 [
   {
-    "title": "SAP Fiori Elements Feature Map: What Is Available in Each SAPUI5 Version",
-    "date": "March 11, 2026",
-    "link": "https://blog.zeis.de/posts/2026-03-12-fiori-elements-feature-map/"
+    "title": "How Siemens Uses ARC-1 for SAP Development and Analysis",
+    "date": "2026-11-18",
+    "link": "https://blog.zeis.de/posts/siemens-arc-1-sap-development-analysis/"
   },
   {
-    "title": "SAP MCP Servers: The Missing Overview",
-    "date": "March 5, 2026",
-    "link": "https://blog.zeis.de/posts/2026-03-05-sap-ai-mcp-servers-overview/"
+    "title": "ARC-1 and SAP ADT: Growing Together",
+    "date": "2026-10-27",
+    "link": "https://blog.zeis.de/posts/arc-1-sap-adt-growing-together/"
   },
   {
-    "title": "SAP's ABAP-1 Loses Every ABAP Benchmark, Even Explaining",
-    "date": "March 3, 2026",
-    "link": "https://blog.zeis.de/posts/2026-03-05-abap-llm-benchmark-understanding/"
+    "title": "Build a Custom MCP Server for Joule Work Desktop with XSUAA",
+    "date": "2026-10-21",
+    "link": "https://blog.zeis.de/posts/custom-mcp-server-joule-work-desktop-xsuaa/"
   },
   {
-    "title": "Building an Enterprise-Ready SAP AI Agent with Open Source",
-    "date": "March 3, 2026",
-    "link": "https://blog.zeis.de/posts/2026-02-16-librechat-enterprise-gpt/"
+    "title": "How to Connect Joule Work Desktop to SAP Systems",
+    "date": "2026-10-18",
+    "link": "https://blog.zeis.de/posts/connect-joule-work-desktop-to-sap/"
   },
   {
-    "title": "Benchmarking LLMs for ABAP: Why ABAP-1 Isn't a Code Generator (Yet)",
-    "date": "February 9, 2026",
-    "link": "https://blog.zeis.de/posts/2026-02-09-abap-llm-benchmark/"
-  },
-  {
-    "title": "Network Request and Response Copier: An OData-Friendly DevTools Request Viewer",
-    "date": "February 5, 2026",
-    "link": "https://blog.zeis.de/posts/2026-02-05-networkcopier-chrome/"
+    "title": "Testing Joule Work Desktop with Microsoft 365, Local Files, and SAP",
+    "date": "2026-08-12",
+    "link": "https://blog.zeis.de/posts/2026-08-11-joule-work-desktop/"
   }
 ]

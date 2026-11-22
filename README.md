@@ -1,101 +1,26 @@
-# UI5 Application de.marianzeis
+# IT Consulting Marian Zeis
 
-Insert the purpose of this project and some interesting info here...
+Source for [zeis.de](https://zeis.de/), hosted on GitHub Pages. The portfolio renders to static HTML. Its profile, projects, talks, podcasts and article links are available without JavaScript.
 
-## Description
+## Run locally
 
-This app demonstrates a TypeScript setup for developing UI5 applications. The central entry point for all information about using TypeScript with UI5 is at [https://sap.github.io/ui5-typescript](https://sap.github.io/ui5-typescript).
-
-**The template is inspired by the [`SAP-samples/ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld) project which also contains [a detailed step-by-step guide](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md). It explains how this setup is created and how all the bits and pieces fit together.**
-
-## Requirements
-
-Either [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) for dependency management.
-
-## Preparation
-
-Use `npm` (or `yarn`) to install the dependencies:
+Use Python 3.9+ to build and preview the site.
 
 ```sh
-npm install
+python3 scripts/build.py
+python3 -m http.server 8080 --directory dist
 ```
 
-(To use yarn, just do `yarn` instead.)
+Open [localhost:8080](http://localhost:8080/). The build uses the checked-in article snapshot. To refresh it, run `python3 scripts/update_blog.py` before building (requires curl). Run the regression tests with `python3 -m unittest discover -s scripts`.
 
-## Run the App
+## Content and publication
 
-Execute the following command to run the app locally for development in watch mode (the browser reloads the app automatically when there are changes in the source code):
+- Edit project, talk, podcast, video and profile entries in `webapp/data/`. The `featured` flag selects projects and talks for the homepage. Videos marked `archive` appear on the history page.
+- The homepage template is `webapp/index.html`. The shared layout, history and legal notice templates are in `templates/`. Skyzo has standalone pages under `webapp/skyzo/`.
+- The Pages workflow builds on pushes to `main`, on manual dispatch and daily at 05:17 UTC. It fetches the posts-only RSS feed from blog.zeis.de, deduplicates by URL, orders by publication time and renders the latest five entries into the HTML. A failed refresh stops publication, so the previous deployment stays online.
+- The daily check skips publication when the homepage is unchanged. A monthly workflow renewal keeps the schedule active during long gaps between repository changes.
+- PostHog uses the portfolio’s existing EU project. Skyzo uses its own static pages and styling.
 
-```sh
-npm start
-```
+## Assets
 
-As shown in the terminal after executing this command, the app is then running on http://localhost:8080/index.html. A browser window with this URL should automatically open.
-
-(When using yarn, do `yarn start` instead.)
-
-## Debug the App
-
-In the browser, you can directly debug the original TypeScript code, which is supplied via sourcemaps (need to be enabled in the browser's developer console if it does not work straight away). If the browser doesn't automatically jump to the TypeScript code when setting breakpoints, use e.g. `Ctrl`/`Cmd` + `P` in Chrome to open the `*.ts` file you want to debug.
-
-## Build the App
-
-### Unoptimized (but quick)
-
-Execute the following command to build the project and get an app that can be deployed:
-
-```sh
-npm run build
-```
-
-The result is placed into the `dist` folder. To start the generated package, just run
-
-```sh
-npm run start:dist
-```
-
-Note that `index.html` still loads the UI5 framework from the relative URL `resources/...`, which does not physically exist, but is only provided dynamically by the UI5 tooling. So for an actual deployment you should change this URL to either [the CDN](https://sdk.openui5.org/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) or your local deployment of UI5.
-
-(When using yarn, do `yarn build` and `yarn start:dist` instead.)
-
-### Optimized
-
-For an optimized self-contained build (takes longer because the UI5 resources are built, too), do:
-
-```sh
-npm run build:opt
-```
-
-To start the generated package, again just run:
-
-```sh
-npm run start:dist
-```
-
-In this case, all UI5 framework resources are also available within the `dist` folder, so the folder can be deployed as-is to any static web server, without changing the bootstrap URL.
-
-With the self-contained build, the bootstrap URL in `index.html` has already been modified to load the newly created `sap-ui-custom.js` for bootstrapping, which contains all app resources as well as all needed UI5 JavaScript resources. Most UI5 resources inside the `dist` folder are for this reason actually **not** needed to run the app. Only the non-JS-files, like translation texts and CSS files, are used and must also be deployed. (Only when for some reason JS files are missing from the optimized self-contained bundle, they are also loaded separately.)
-
-(When using yarn, do `yarn build:opt` and `yarn start:dist` instead.)
-
-## Check the Code
-
-Do the following to run a TypeScript check:
-
-```sh
-npm run ts-typecheck
-```
-
-This checks the application code for any type errors (but will also complain in case of fundamental syntax issues which break the parsing).
-
-To lint the TypeScript code, do:
-
-```sh
-npm run lint
-```
-
-(Again, when using yarn, do `yarn ts-typecheck` and `yarn lint` instead.)
-
-## License
-
-This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+The original Poppins and Source Sans 3 typefaces are served locally as Latin WOFF2 files under the SIL Open Font License. The list chevron is the original Horizon (v5) slim-arrow-right from SAP’s `@ui5/webcomponents-icons` 2.29.0. The SVG is used directly in CSS. Licenses are shipped in `webapp/assets/licenses/`.

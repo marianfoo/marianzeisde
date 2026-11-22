@@ -1,0 +1,18 @@
+# Marian Zeis
+
+> Independent SAP developer and consultant in Mainleus, Germany. Marian develops ARC-1 and other open-source tools for ABAP, SAPUI5 and the Model Context Protocol.
+
+## Portfolio
+
+- [Projects](https://zeis.de/#projects)
+- [Talks, slides and professional history](https://zeis.de/history/)
+- [Podcast appearances](https://zeis.de/#podcasts)
+- [Videos and demos](https://zeis.de/#videos)
+- [Contact and public profiles](https://zeis.de/#contact)
+
+## First-hand technical material
+
+- [Marian’s blog](https://blog.zeis.de/): articles and experiments.
+- [Blog RSS](https://blog.zeis.de/posts/index.xml): dated article titles and permanent links.
+- [ARC-1](https://arc-1-mcp.com/): project and documentation.
+- [SAP AI tools directory](https://sap-ai-tools.marianzeis.de/): Marian’s catalog of SAP and community tools.

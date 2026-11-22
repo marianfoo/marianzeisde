@@ -1,0 +1,44 @@
+[
+  {
+    "title": "We ❤️ Output",
+    "meta": "Nov 2026 · Recorded in Bamberg · German",
+    "description": "Frank Engert and I talked about AI agents, ARC-1 and our DemoJam win. Read Frank’s recording announcement.",
+    "link": "https://www.linkedin.com/posts/frank-engert_ki-trifft-abap-und-das-beim-wei%C3%9Fwurstfr%C3%BChst%C3%BCck-activity-7528419537835397120-ZHqW"
+  },
+  {
+    "title": "From Clean Core to Agentic AI",
+    "meta": "29 Oct 2026 · SAP TechEd live video podcast",
+    "description": "Jan Penninkhof, Twan van den Broek and I discussed what agentic AI means for SAP developers. Open the SAP session page.",
+    "link": "https://www.sap.com/events/teched/virtual/flow/sap/tev26/catalog/page/catalog/session/1792614713582001bcAH"
+  },
+  {
+    "title": "Wie verändert KI Rolle und Aufgaben von Software-Entwicklern?",
+    "meta": "21 Sep 2026 · Education NewsCast #421 · German",
+    "description": "A conversation about where AI helps in day-to-day software development and how it changes the work of an SAP developer.",
+    "link": "https://podcasts.apple.com/de/podcast/id1352307529?i=1000790882524"
+  },
+  {
+    "title": "MCP servers and SAP AI Models",
+    "meta": "17 Jun 2026 · SAP on AWS for Builders #10",
+    "description": "Watch our discussion of SAP models and connecting assistants to ABAP with ARC-1.",
+    "link": "https://www.youtube.com/watch?v=x5N1dNXGoa4"
+  },
+  {
+    "title": "ABAP development with ARC-1",
+    "meta": "5 Jun 2026 · SAP on Azure #292",
+    "description": "A walkthrough of how an assistant works with ABAP Development Tools through ARC-1.",
+    "link": "https://www.saponazurepodcast.de/episode292/"
+  },
+  {
+    "title": "MCP with BTP – AI Data Enabler",
+    "meta": "24 Nov 2025 · SAP on Azure #269",
+    "description": "With Wouter Lemaire and Tom Cenens on connecting AI assistants to SAP data.",
+    "link": "https://www.saponazurepodcast.de/episode269/"
+  },
+  {
+    "title": "UI5 Spreadsheet Importer",
+    "meta": "6 Oct 2023 · SAP on Azure #163",
+    "description": "A demo of importing spreadsheet data into SAPUI5 applications.",
+    "link": "https://www.saponazurepodcast.de/episode163/"
+  }
+]

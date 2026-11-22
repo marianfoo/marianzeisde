@@ -1,9 +1,15 @@
 [
   {
-    "title": "Blog",
-    "description": "Latest posts on AI in SAP, UI5/Fiori elements, ABAP/RAP, and developer tooling",
+    "title": "LinkedIn",
     "type": "Navigation",
-    "link": "https://blog.zeis.de/"
+    "link": "https://www.linkedin.com/in/marianzeis/",
+    "description": "I share ARC-1 releases, SAP development experiments and notes from community events."
+  },
+  {
+    "title": "Email",
+    "description": "marian@zeis.de",
+    "type": "Active",
+    "link": "mailto:marian@zeis.de"
   },
   {
     "title": "GitHub",
@@ -12,24 +18,29 @@
     "link": "https://github.com/marianfoo"
   },
   {
-    "title": "LinkedIn",
+    "title": "Blog",
+    "description": "Latest posts on AI in SAP, UI5/Fiori elements, ABAP/RAP, and developer tooling",
     "type": "Navigation",
-    "link": "https://www.linkedin.com/in/marianzeis"
+    "link": "https://blog.zeis.de/"
+  },
+  {
+    "title": "YouTube",
+    "link": "https://www.youtube.com/@marianzeis4687",
+    "description": "My demos and recordings."
+  },
+  {
+    "title": "SAP Community",
+    "link": "https://profile.sap.com/u/Marian_Zeis",
+    "description": "Community posts and events."
   },
   {
     "title": "Bluesky",
     "type": "Navigation",
-    "link": "https://bsky.app/profile/marian.marianzeis.de"
+    "link": "https://bsky.app/profile/marian.zeis.de"
   },
   {
     "title": "Mastodon",
     "type": "Navigation",
     "link": "https://saptodon.org/@Mianbsp"
-  },
-  {
-    "title": "Email",
-    "description": "marian@zeis.de",
-    "type": "Active",
-    "link": "mailto:marian@zeis.de"
   }
 ]

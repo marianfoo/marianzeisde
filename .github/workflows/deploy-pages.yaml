@@ -2,45 +2,74 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  schedule:
+    - cron: '17 5 * * *'
+    - cron: '37 5 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  renew-schedule:
+    if: github.event.schedule == '37 5 1 * *'
     runs-on: ubuntu-latest
     permissions:
+      actions: write
+    steps:
+      - name: Renew this workflow during long gaps between portfolio edits
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable deploy-pages.yaml --repo "$GITHUB_REPOSITORY"
+
+  build:
+    if: github.event.schedule != '37 5 1 * *'
+    permissions:
       contents: read
+      pages: read
+    outputs:
+      publish: ${{ steps.changed.outputs.publish }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Refresh the latest five posts
+        run: python3 scripts/update_blog.py
+      - name: Test feed ordering and rendering
+        run: python3 -m unittest discover -s scripts
+      - name: Build the static portfolio
+        run: python3 scripts/build.py
+      - name: Check whether publication is needed
+        id: changed
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" == schedule ]] && curl -fsSL --max-time 30 https://zeis.de/ -o "$RUNNER_TEMP/current-home" && cmp -s "$RUNNER_TEMP/current-home" dist/index.html; then
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/configure-pages@v6
+        if: steps.changed.outputs.publish == 'true'
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.changed.outputs.publish == 'true'
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build:opt
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dist'  # Adjust this to your build output directory
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 
+      - id: deployment
+        uses: actions/deploy-pages@v5

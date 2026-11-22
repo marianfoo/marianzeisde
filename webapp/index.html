@@ -1,45 +1,48 @@
-<!doctype html>
-<html>
-	<head>
-		<meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="expires" content="0" />
-		<meta charset="utf-8" />
-		
-		<!-- Custom Fonts - Poppins for headings, Source Sans 3 for body -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<section class="hero" aria-labelledby="name">
+  <p class="company">IT Consulting Marian Zeis</p>
+  <div class="profile">
+    <img src="/assets/marian-zeis.webp" alt="Marian Zeis" width="120" height="120" fetchpriority="high">
+    <div>
+      <h1 id="name">Marian Zeis</h1>
+      <p class="role">Independent SAP developer and consultant</p>
+      <ul class="tags" aria-label="Areas of focus"><li>ARC-1 &amp; MCP servers</li><li>UI5 / Fiori elements</li><li>ABAP / RAP</li></ul>
+      <p class="intro">I build open-source tools for SAP developers. My main project is <a href="https://arc-1-mcp.com/">ARC-1</a>, which connects AI assistants to ABAP systems through the Model Context Protocol (MCP).</p>
+      <p class="meta"><span>Mainleus, Bavaria, Germany</span><span>DSAG UI Technologies working group speaker</span></p>
+      <p class="profile-links"><a href="https://www.linkedin.com/in/marianzeis/" rel="me">Follow my work on LinkedIn</a><a href="mailto:marian@zeis.de">Email me</a></p>
+    </div>
+  </div>
+</section>
 
-		<title>Marian Zeis - SAP Developer &amp; Consultant</title>
+<section class="panel" id="projects">
+  <h2>Featured projects</h2>
+  <ul class="rows">$projects</ul>
+  <details><summary>More open-source projects</summary><ul class="rows">$more_projects</ul></details>
+</section>
 
-		<script
-			id="sap-ui-bootstrap"
-			src="resources/sap-ui-core.js"
-			data-sap-ui-resource-roots='{
-				"de.marianzeis": "./"
-			}'
-			data-sap-ui-theme="sap_horizon"
-			data-sap-ui-on-init="module:sap/ui/core/ComponentSupport"
-			data-sap-ui-async="true"
-			data-sap-ui-compat-version="edge"
-			data-sap-ui-frame-options="trusted"
-			data-sap-ui-xx-waitForTheme="true"
-			data-sap-ui-xx-supportedLanguages="en,de"
-		></script>
+<section class="panel" id="talks">
+  <h2>Presentations &amp; talks</h2>
+  <ul class="rows">$recent_talks</ul>
+  <a class="section-link" href="/history/">All talks, slides and professional experience</a>
+</section>
 
-		<!-- PostHog Analytics -->
-		<script>
-			!function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ai Ri init Vi Yi Rr zi Gi Zi capture calculateEventProperties en register register_once register_for_session unregister unregister_for_session sn getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync an identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty rn Ki createPersonProfile setInternalOrTestUser nn $i hn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Xi debug Mr tn getPageViewId captureTraceFeedback captureTraceMetric Di".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-			posthog.init('phc_LhXnSnWMQMPbNodkan26Z0oQEwAKOyDHOxTrmDCPfMD', {
-				api_host: 'https://eu.i.posthog.com',
-				defaults: '2026-01-30',
-				person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-			})
-		</script>
-	</head>
+<section class="panel" id="blog">
+  <h2>Latest blog posts</h2>
+  <ul class="rows">$posts</ul>
+  <a class="section-link" href="https://blog.zeis.de/">All articles on blog.zeis.de</a>
+</section>
 
-	<body class="sapUiBody">
-		<div data-sap-ui-component data-name="de.marianzeis"></div>
-	</body>
-</html>
+<section class="panel" id="podcasts">
+  <h2>Podcasts</h2>
+  <ul class="rows">$podcasts</ul>
+</section>
+
+<section class="panel" id="videos">
+  <h2>Videos &amp; demos</h2>
+  <ul class="rows">$videos</ul>
+  <a class="section-link" href="/history/#recordings">Earlier UI5 recordings</a>
+</section>
+
+<section class="panel" id="contact">
+  <h2>Contact &amp; profiles</h2>
+  <ul class="rows">$contacts</ul>
+</section>
