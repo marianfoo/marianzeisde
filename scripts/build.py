@@ -43,7 +43,10 @@ def row(item):
     links = item.get("links", [])
     resources = ""
     if links:
-        anchors = [f'<a href="{escape(link["url"])}">{escape(link["text"])}</a>' for link in links]
+        anchors = [
+            f'<a href="{escape(link["url"])}" aria-label="{escape(link["text"])} — {title}">{escape(link["text"])}</a>'
+            for link in links
+        ]
         resources = '<div class="resources">' + " ".join(anchors) + "</div>"
     return f'<li class="entry">{meta(item)}<h3>{title}</h3>{detail(item)}{resources}</li>'
 
@@ -95,11 +98,17 @@ def main():
     addEventListener("hashchange", resolveLegalNotice);
   </script>"""
     analytics = '<script defer src="/assets/analytics.js"></script>'
+    podcasts = data("podcasts")
+    recordings = [
+        {"title": talk["title"], "meta": talk["meta"], "link": link["url"]}
+        for talk in talks for link in talk["links"] if link.get("kind") == "video"
+    ]
     homepage = template(
         WEB / "index.html", projects=rows(p for p in projects if p.get("featured")),
         more_projects=rows(p for p in projects if not p.get("featured")),
-        recent_talks=rows(t for t in talks if t.get("featured")), posts=rows(posts), podcasts=rows(data("podcasts")),
-        videos=rows(v for v in videos if not v.get("archive")), contacts=rows(contacts),
+        recent_talks=rows(t for t in talks if t.get("featured")), posts=rows(posts),
+        podcasts=rows(podcasts[:5]), older_podcasts=rows(podcasts[5:]),
+        videos=rows(recordings[:3] + [v for v in videos if v.get("featured")]), contacts=rows(contacts),
     )
     page("/", "Marian Zeis | SAP development, ARC-1 & MCP servers",
          "Independent SAP developer Marian Zeis builds ARC-1 and open-source MCP servers for ABAP. Explore his projects, articles, talks and podcasts.",
@@ -118,7 +127,7 @@ def main():
     page("/history/", "Talks & professional history | Marian Zeis",
          "Marian Zeis’s talks, slides and recordings from SAP TechEd, UI5con, Devtoberfest and SAP Inside Track, plus his professional experience.",
          template(TEMPLATES / "history.html", years="\n".join(sections), year_links=" ".join(year_links),
-                  recordings=rows(v for v in videos if v.get("archive")), experience=rows(data("experience"))), analytics)
+                  recordings=rows(recordings), demos=rows(videos), experience=rows(data("experience"))), analytics)
     page("/impressum/", "Impressum / Legal notice | IT Consulting Marian Zeis",
          "Anbieterkennzeichnung und Kontakt für IT Consulting Marian Zeis in Mainleus.",
          (TEMPLATES / "impressum.html").read_text(encoding="utf-8"), lang="de")

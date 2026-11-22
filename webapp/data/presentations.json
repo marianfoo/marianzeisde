@@ -2,12 +2,16 @@
   {
     "year": 2026,
     "title": "SAP TechEd · From Clean Core to Agentic AI",
-    "meta": "29 Oct 2026 · Live video podcast",
-    "description": "With Jan Penninkhof and Twan van den Broek.",
+    "meta": "29 Oct 2026 · SAP TechEd · Live video podcast",
+    "description": "Jan Penninkhof, Twan van den Broek and I discussed clean core and AI agents in SAP development.",
     "links": [
       {
-        "text": "SAP session",
+        "text": "SAP session VS13",
         "url": "https://www.sap.com/events/teched/virtual/flow/sap/tev26/catalog/page/catalog/session/1792614713582001bcAH"
+      },
+      {
+        "text": "SAP Developer Center agenda",
+        "url": "https://developers.sap.com/teched?embed=full#:~:text=Video%20Podcast%3A%20From%20Clean%20Core%20to%20Agentic%20AI"
       }
     ],
     "featured": true
@@ -23,8 +27,12 @@
         "url": "https://community.sap.com/t5/technology-blog-posts-by-members/agentic-ai-on-btp-from-a-dump-in-your-mailbox-to-a-tested-fix/ba-p/14518946"
       },
       {
-        "text": "SAP session",
+        "text": "SAP session DJ100",
         "url": "https://www.sap.com/events/teched/berlin/flow/sap/te26/catalog/page/catalog/session/1787675635317001jh2R"
+      },
+      {
+        "text": "SAP Developer Center agenda",
+        "url": "https://developers.sap.com/teched?embed=full#:~:text=DemoJam"
       }
     ],
     "featured": true
@@ -32,21 +40,46 @@
   {
     "year": 2026,
     "title": "SAP Devtoberfest · AI-assisted SAP development with MCP",
-    "meta": "16 Oct · Online",
-    "description": "A live walkthrough of MCP tools for SAP developers.",
+    "meta": "16 Oct 2026 · Online",
+    "description": "I demonstrated how an AI assistant uses MCP tools to work with SAP development systems.",
     "links": [
       {
-        "text": "Watch the session",
-        "url": "https://www.youtube.com/watch?v=b6eGA00UpkI"
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=b6eGA00UpkI",
+        "kind": "video"
       }
     ]
   },
   {
     "year": 2026,
-    "title": "DSAG Jahreskongress",
-    "meta": "Oct · Cologne",
-    "description": "Two sessions on AI in SAP development and ABAP Cloud.",
+    "title": "DSAG Jahreskongress · SAP und KI richtig einordnen: Zwischen Kontext, Kontrolle und Nutzen",
+    "meta": "7 Oct 2026 · Cologne · V097",
+    "description": "Daniel Dorst and I shared how Siemens uses ARC-1 to give AI assistants context for SAP development and analysis.",
     "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/dsag-jahreskongress-v097.pdf"
+      },
+      {
+        "text": "Siemens case study",
+        "url": "https://blog.zeis.de/posts/siemens-arc-1-sap-development-analysis/"
+      },
+      {
+        "text": "Program (PDF, p. 16)",
+        "url": "https://dsag.de/wp-content/uploads/2026/08/JK26_Einladung_Programm.pdf#page=16"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "DSAG Jahreskongress · Die Zukunft der ABAP Entwicklung",
+    "meta": "7 Oct 2026 · Cologne · V099",
+    "description": "I joined the AK Development panel with Alexander Rother, Sebastian Freilinger-Huber and Björn Schulz to discuss the future of ABAP.",
+    "links": [
+      {
+        "text": "Program (PDF, p. 16)",
+        "url": "https://dsag.de/wp-content/uploads/2026/08/JK26_Einladung_Programm.pdf#page=16"
+      },
       {
         "text": "Session notes",
         "url": "https://www.linkedin.com/posts/marianzeis_dsagjk26-activity-7513491419286618112-On-k"
@@ -56,11 +89,20 @@
   {
     "year": 2026,
     "title": "SAP Inside Track Weinheim · AI-assisted SAP development with MCP",
-    "meta": "19 Sep · Weinheim",
-    "description": "",
+    "meta": "19 Sep 2026 · Weinheim",
+    "description": "The on-stage demos cover an ABAP transport review and a Jira workflow with ARC-1.",
     "links": [
       {
-        "text": "Talk & event materials",
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=VBuJJafeG8g",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/sit-weinheim-mcp.pdf"
+      },
+      {
+        "text": "Event program",
         "url": "https://sitwhm.de/2026/"
       }
     ]
@@ -68,9 +110,17 @@
   {
     "year": 2026,
     "title": "SAP Inside Track Sydney · AI-assisted SAP development with MCP",
-    "meta": "4 Sep · Remote speaker",
-    "description": "",
+    "meta": "4 Sep 2026 · Sydney · Remote speaker",
+    "description": "I joined the Sydney community remotely to show how MCP tools fit into full-stack SAP development.",
     "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/sit-sydney-mcp.pdf"
+      },
+      {
+        "text": "Event program",
+        "url": "https://community.sap.com/t5/sydney-events/sap-inside-track-sydney-2026-friday-september-4-9-00am-6pm/ev-p/14383421"
+      },
       {
         "text": "Event recap",
         "url": "https://www.linkedin.com/posts/bruno-gontijo_sapinsidetrack-sitsydney-sapcommunity-activity-7504062489693868032-xLCM"
@@ -79,190 +129,437 @@
   },
   {
     "year": 2026,
-    "title": "UI5con · UI5 has entered the chat",
-    "meta": "14 Jul · St. Leon-Rot",
+    "title": "UI5con · UI5 has entered the chat – AI, MCP Apps and UI5",
+    "meta": "14 Jul 2026 · St. Leon-Rot",
     "description": "Mike Zaschka and I built five interactive MCP app samples, from plain HTML to an ARC-1 transport review.",
     "links": [
       {
-        "text": "Examples & slides",
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=ao2RymYswUk",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/UI5con_2026_MCPApps/main/UI5con2026_MCPApps.pdf"
+      },
+      {
+        "text": "Five demo apps",
+        "url": "https://github.com/marianfoo/UI5con_2026_MCPApps"
+      },
+      {
+        "text": "Walkthrough",
         "url": "https://blog.zeis.de/posts/2026-07-13-ui5-mcp-apps/"
       }
     ]
   },
   {
     "year": 2026,
-    "title": "betterCode() ABAP · RAP und SAP Fiori Elements steuern",
-    "meta": "29 Apr · Online",
-    "description": "How ABAP developers use annotations to shape Fiori elements applications.",
+    "title": "DSAG AG UI-Technologien · KI-gestützte App-Entwicklung mit SAP Fiori elements",
+    "meta": "19 May 2026 · St. Leon-Rot",
+    "description": "Christoph Gollmick, Sebastian Werner and I presented Fiori elements building blocks and the SAP Fiori MCP server.",
     "links": [
       {
-        "text": "Conference program",
-        "url": "https://abap.bettercode.eu/"
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/dsag-ui-technologien-fiori-mcp.pdf"
+      },
+      {
+        "text": "DSAGNet event",
+        "url": "https://dsagnet.de/event/ag-ui-technologien-prasenztreffen"
       }
     ]
   },
   {
     "year": 2026,
-    "title": "DSAG Technologietage · AI, data strategy and security",
-    "meta": "Mar · Panel discussion",
-    "description": "Perspectives from the DSAG working groups on AI and SAP development.",
+    "title": "betterCode() ABAP · RAP und SAP Fiori Elements steuern: Annotationen richtig einsetzen",
+    "meta": "29 Apr 2026 · Online",
+    "description": "How CDS and metadata extension annotations shape a list report and object page.",
     "links": [
       {
-        "text": "DSAG program",
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/bettercode-abap-rap-annotations.pdf"
+      },
+      {
+        "text": "Event program",
+        "url": "https://abap.bettercode.eu/2026/veranstaltung-87089-se-0-rap-und-sap-fiori-elements-steuern-annotationen-richtig-einsetzen.html"
+      },
+      {
+        "text": "Heise interview",
+        "url": "https://www.heise.de/news/Drei-Fragen-und-Antworten-Warum-ABAP-Entwickler-jetzt-umdenken-muessen-11241139.html"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "DSAG webinar · SAP-Entwicklung mit KI, Fiori elements, RAP und Open-Source-MCP-Servern",
+    "meta": "16 Apr 2026 · Online",
+    "description": "Christoph Gollmick and I demonstrated how MCP servers support RAP and Fiori elements development.",
+    "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2026/dsag-development-fiori-rap-mcp.pdf"
+      },
+      {
+        "text": "DSAGNet event",
+        "url": "https://dsagnet.de/event/online-session-sap-entwicklung-mit-ki-fiori-elements-rap-und-open-source-mcp-servern"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "DSAG Technologietage · KI-gestützte App-Entwicklung mit SAP Fiori elements",
+    "meta": "18 Mar 2026 · Hamburg · V091",
+    "description": "With Christoph Gollmick on building blocks and the MCP server for SAP Fiori.",
+    "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/2_V091_SAP_KI_gestuetzte_AppEntwicklung.pdf"
+      },
+      {
+        "text": "Program (PDF, p. 12)",
+        "url": "https://dsag.de/wp-content/uploads/2026/01/TT26_Einladung_Agenda.pdf#page=12"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "DSAG Technologietage · Roundtable KI – Aktuelle Herausforderungen und Lösungswege",
+    "meta": "18 Mar 2026 · Hamburg · V108",
+    "description": "Michael Bloch, Florian Kunzke and I discussed current challenges and practical approaches to AI.",
+    "links": [
+      {
+        "text": "Program (PDF, p. 12)",
+        "url": "https://dsag.de/wp-content/uploads/2026/01/TT26_Einladung_Agenda.pdf#page=12"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "DSAG Technologietage · KI, Datenstrategie und Security",
+    "meta": "17 Mar 2026 · Hamburg · Opening panel",
+    "description": "I joined Stefan Nogly, Jessica Wolf and Hakan Keles for the discussion following the DSAG opening keynote.",
+    "links": [
+      {
+        "text": "Program (PDF, p. 5)",
+        "url": "https://dsag.de/wp-content/uploads/2026/01/TT26_Einladung_Agenda.pdf#page=5"
+      },
+      {
+        "text": "DSAG highlights",
         "url": "https://impulsant.dsag.de/formate/textbeitrag/dsag-technologietage-2026-highlights-auf-einen-blick/"
       }
     ]
   },
   {
-    "title": "DSAG Zukunftstag 2026",
+    "year": 2026,
+    "title": "DSAG Zukunftstag Development · Fiori elements and ABAP development with AI",
+    "meta": "10 Feb 2026 · Hockenheim",
+    "description": "My slides cover a Fiori elements first approach. The event also included a live ABAP demo with MCP tools.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/DSAG-Zukunftstag26-ZeisMarian.pdf"
+      },
+      {
+        "text": "ABAP demo resources",
+        "url": "https://github.com/marianfoo/marianfoo/blob/main/2026-Zukunftstage.md"
+      },
+      {
+        "text": "DSAGNet event",
+        "url": "https://dsagnet.de/event/zukunftstag-development-2026"
       }
-    ],
-    "year": 2026
+    ]
   },
   {
-    "title": "SAP Inside Track Munich 2025",
+    "year": 2025,
+    "title": "SAP TechEd · Generate and extend apps based on SAP Fiori elements with Joule using MCP servers",
+    "meta": "5 Nov 2025 · Berlin · CT1264",
     "links": [
       {
-        "text": "Slides",
-        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/SITMUC25.pdf"
-      }
-    ],
-    "year": 2025
-  },
-  {
-    "title": "SAP TechEd Berlin · Generate and extend SAP Fiori elements apps with Joule",
-    "links": [
-      {
-        "text": "Slides",
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/teched-2025.pdf"
       },
       {
         "text": "Session details",
         "url": "https://community.sap.com/t5/sap-teched-blog-posts/join-the-community-talks-at-sap-teched-berlin-2025-in-the-community-theatre/ba-p/14255974"
       }
-    ],
-    "year": 2025
+    ]
   },
   {
-    "title": "DSAG Jahreskongress 2024",
+    "year": 2025,
+    "title": "SAP Devtoberfest · End to End UI5 Tooling",
+    "meta": "21 Oct 2025 · Online",
+    "description": "Wouter Lemaire and I wired together a UI5 application, a library and a reusable component in a live coding session.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=wXpIsrZ2WoE",
+        "kind": "video"
+      },
+      {
+        "text": "Demo code",
+        "url": "https://github.com/marianfoo/devtoberfest-2025-tooling"
+      },
+      {
+        "text": "Event program",
+        "url": "https://community.sap.com/t5/devtoberfest/end-to-end-ui5-tooling-connecting-apps-libraries-and-components/ev-p/14219027"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "SAP Devtoberfest · UI5 Middleware FE Mockserver in Practice",
+    "meta": "14 Oct 2025 · Online",
+    "description": "Nicolas Lunet and I set up the mock server and used it to develop and test a Fiori elements app.",
+    "links": [
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=er6Mx93shJI",
+        "kind": "video"
+      },
+      {
+        "text": "Hands-on tutorial",
+        "url": "https://marianfoo.github.io/ui5-fe-mockserver-tutorial/"
+      },
+      {
+        "text": "Event program",
+        "url": "https://community.sap.com/t5/devtoberfest/ui5-middleware-fe-mockserver-in-practice-setup-use-cases-live-coding/ev-p/14218989"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "SAP Inside Track Munich · Open-Source Joule for Consultants",
+    "meta": "11 Oct 2025 · Munich",
+    "description": "Using MCP to make SAP documentation and CAP data available to an assistant.",
+    "links": [
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=vTZCeaxsOwU",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/SITMUC25.pdf"
+      },
+      {
+        "text": "Event program",
+        "url": "https://sitmuc.jimdoweb.com/past-years/2025/"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "SAP Fiori elements and tools roundtable · UI5 app usage in production",
+    "meta": "13 Nov 2024 · Partner roundtable",
+    "description": "Volker Buzek and I presented the results of our survey of 168 participants.",
+    "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/slides/2024/fiori-roundtable-ui5-survey.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "DSAG Jahreskongress · Realität trifft Marketing",
+    "meta": "16 Oct 2024 · Leipzig · V084",
+    "description": "Volker Buzek, Sebastian Werner, Stefan Engelhardt and I discussed what the DSAG survey revealed about Fiori in production.",
+    "links": [
+      {
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/DSAG-JK-2024-Umfrage.pdf"
       },
       {
-        "text": "Umfragedaten",
+        "text": "Survey data (CSV)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/umfrageergebnisse.csv"
+      },
+      {
+        "text": "Program (PDF, p. 15)",
+        "url": "https://dsag.de/wp-content/uploads/2024/07/Einladung_und_Agenda_JK24.pdf#page=15"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "SIT Munich 24 - UI5 Spreadsheet Importer",
+    "year": 2024,
+    "title": "SAP Inside Track Munich · UI5 Spreadsheet Importer Release v1",
+    "meta": "12 Oct 2024 · Munich",
     "links": [
       {
-        "text": "Slides",
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=_-_jjit4ROk",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/SITMUCUI5SpreadsheetImporter.pdf"
+      },
+      {
+        "text": "Event program",
+        "url": "https://sitmuc.jimdoweb.com/24/"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "SIT Belgium 24 - UI5 Spreadsheet Importer",
+    "year": 2024,
+    "title": "SAP Inside Track Belgium · UI5 Spreadsheet Importer V1 Release",
+    "meta": "21 Sep 2024 · Zaventem",
     "links": [
       {
-        "text": "Slides",
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/SITBelgium24UI5SpreadsheetImporter.pdf"
+      },
+      {
+        "text": "Organizer recap",
+        "url": "https://community.sap.com/t5/brussels-blog-posts/level-complete-sap-inside-track-belgium-2024-recap/ba-p/13877993"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "DSAG Open Source Webinar - UI5 Spreadsheet Importer",
+    "year": 2024,
+    "title": "DSAG Development webinar · UI5 Spreadsheet Importer",
+    "meta": "10 Sep 2024 · Online",
+    "description": "A demonstration of the importer for the working group’s open-source meeting.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/DSAGOpenSourceUI5SpreadsheetImporter.pdf"
-      }
-    ],
-    "year": 2024
-  },
-  {
-    "title": "reCAP 2024 - CAP Community - Best of CAPJS",
-    "links": [
-      {
-        "text": "Slides",
-        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/reCAP_2024_bestofcap.pdf"
       },
       {
-        "text": "Project",
-        "url": "https://bestofcapjs.org/"
+        "text": "DSAGNet event",
+        "url": "https://dsagnet.de/event/ak-development-virtuelles-treffen-zum-thema-open-source"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "reCAP 2024 - Seamless Integration: Crafting the Perfect CAP+UI5 Development Environment",
+    "year": 2024,
+    "title": "UI5con · Seamless Integration: Crafting the Perfect UI5 Development Environment",
+    "meta": "5 Jun 2024 · St. Leon-Rot",
+    "description": "How I set up a reproducible UI5 development environment.",
     "links": [
       {
-        "text": "Slides",
-        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/reCAP_2024_devenv.pdf"
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=dYRtAlyE0tc",
+        "kind": "video"
       },
       {
-        "text": "Project",
-        "url": "https://github.com/marianfoo/ui5con24-dev-env"
-      }
-    ],
-    "year": 2024
-  },
-  {
-    "title": "UI5con 2024 - Seamless Integration: Crafting the Perfect UI5 Development Environment",
-    "links": [
-      {
-        "text": "Slides",
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/2024_UI5con_dev.pdf"
       },
       {
         "text": "Project",
         "url": "https://github.com/marianfoo/ui5con24-dev-env"
+      },
+      {
+        "text": "Event program",
+        "url": "https://openui5.org/ui5con/germany2024/"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "UI5con · How UI5 apps are used in production, with Volker Buzek",
+    "year": 2024,
+    "title": "UI5con · How UI5 apps are used in production",
+    "meta": "5 Jun 2024 · St. Leon-Rot",
+    "description": "Volker Buzek and I presented the survey findings and shared the underlying responses.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=aiahbh9noKk",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/ui5con-2024-survey.pdf"
       },
       {
-        "text": "Raw Results",
+        "text": "Survey data (XLSX)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/ui5con-2024.xlsx"
+      },
+      {
+        "text": "Event program",
+        "url": "https://openui5.org/ui5con/germany2024/"
       }
-    ],
-    "year": 2024
+    ]
   },
   {
-    "title": "SAPInsider EMEA 2023 - Speed up your Development with Fiori Elements",
+    "year": 2024,
+    "title": "reCAP · CAP Community – Best of CAPJS",
+    "meta": "4 Jun 2024 · St. Leon-Rot",
+    "description": "Finding community-maintained packages for the SAP Cloud Application Programming Model.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/reCAP_2024_bestofcap.pdf"
+      },
+      {
+        "text": "Project",
+        "url": "https://bestofcapjs.org/"
+      },
+      {
+        "text": "Conference archive",
+        "url": "https://recap-conf.dev/archive.html"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "reCAP · Seamless Integration: Crafting the Perfect CAP+UI5 Development Environment",
+    "meta": "4 Jun 2024 · St. Leon-Rot",
+    "description": "Wouter Lemaire, Peter Müßig and I shared a development environment for CAP and UI5.",
+    "links": [
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/reCAP_2024_devenv.pdf"
+      },
+      {
+        "text": "Project",
+        "url": "https://github.com/marianfoo/ui5con24-dev-env"
+      },
+      {
+        "text": "Conference archive",
+        "url": "https://recap-conf.dev/archive.html"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "SAPinsider EMEA · How to Speed up Your Application Development with Fiori Elements",
+    "meta": "Nov 2023 · Copenhagen · Breakout session",
+    "links": [
+      {
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/ZeisMarian-SpeedUpWithFioriElements.pdf"
+      },
+      {
+        "text": "Session details",
+        "url": "https://sapinsider.org/event-presentations/how-to-speed-up-your-application-development-with-fiori-elements/"
       }
-    ],
-    "year": 2023
+    ]
   },
   {
-    "title": "UI5con 2023 Excel Upload Component",
+    "year": 2023,
+    "title": "SAPinsider EMEA · An In-Depth Discussion about Fiori Elements",
+    "meta": "Nov 2023 · Copenhagen · Café session",
+    "description": "A follow-up to the breakout for a small-group discussion of use cases and experience with Fiori elements.",
     "links": [
       {
-        "text": "Slides",
-        "url": "https://github.com/marianfoo/marianfoo/blob/main/2023_UI5con_excelupload_component.pdf"
+        "text": "Organizer agenda",
+        "url": "https://sapinsider.org/sapinsider-emea-2023-CIO-Strategy"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "UI5con · Excel Upload in UI5 made easy with Open Source",
+    "meta": "6 Jul 2023 · St. Leon-Rot",
+    "description": "Peter Müßig and I demonstrated the UI5 component for spreadsheet imports.",
+    "links": [
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=1SKNcaxdoXg",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/2023_UI5con_excelupload_component.pdf"
       },
       {
         "text": "Live Demo",
@@ -280,24 +577,48 @@
         "text": "Example Apps",
         "url": "https://github.com/spreadsheetimporter/ui5-cc-spreadsheetimporter/tree/main/examples/packages"
       }
-    ],
-    "year": 2023
+    ]
   },
   {
-    "title": "DSAG Technologietage 2023 UI5 ExcelUpload",
+    "year": 2023,
+    "title": "UI5con · When to use which UI framework or tool in SAP-verse",
+    "meta": "6 Jul 2023 · St. Leon-Rot · Panel",
+    "description": "A panel on choosing UI technologies for SAP projects.",
     "links": [
       {
-        "text": "Slides",
-        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/DSAG-Technologietage_2023_UI5_Excel_Upload.pdf"
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=TBzoXiBBz6Q",
+        "kind": "video"
+      },
+      {
+        "text": "Event program",
+        "url": "https://openui5.org/ui5con/germany2023/"
       }
-    ],
-    "year": 2023
+    ]
   },
   {
-    "title": "SAP Inside Track Belgium 2022",
+    "year": 2023,
+    "title": "DSAG Technologietage · Excel Upload in Fiori – leicht gemacht mit Open Source",
+    "meta": "22 Mar 2023 · Mannheim",
+    "description": "Thorsten Klingbeil of Stadtwerke München and I presented the open-source upload component.",
     "links": [
       {
-        "text": "Slides",
+        "text": "Slides (PDF)",
+        "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/DSAG-Technologietage_2023_UI5_Excel_Upload.pdf"
+      },
+      {
+        "text": "Program (PDF, p. 11)",
+        "url": "https://dsag.de/wp-content/uploads/2023/01/Einladung_und_Agenda_TT23.pdf#page=11"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "SAP Inside Track Belgium · Best of Open Source SAP Community Projects",
+    "meta": "24 Sep 2022 · Kontich",
+    "links": [
+      {
+        "text": "Slides (PDF)",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/SITBE%20Best%20of%20Open%20Source%20SAP%20Projects.pdf"
       },
       {
@@ -307,8 +628,53 @@
       {
         "text": "Survey Data",
         "url": "https://raw.githubusercontent.com/marianfoo/marianfoo/main/Survey_State_of_Open_Source.xlsx"
+      },
+      {
+        "text": "Organizer recap",
+        "url": "https://community.sap.com/t5/additional-blog-posts-by-members/sap-inside-track-belgium-2022/ba-p/13545367"
       }
-    ],
-    "year": 2022
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "UI5con · UI5 Community – Contributor Experiences",
+    "meta": "8 Jul 2022 · Hybrid · Panel",
+    "description": "Volker Buzek and Peter Müßig interviewed contributors to UI5 community projects. The discussion was also released as UI5 NewsCast #030.",
+    "links": [
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=KOsQt-arDzs",
+        "kind": "video"
+      },
+      {
+        "text": "Spotify",
+        "url": "https://open.spotify.com/episode/2ZUeGjorlQ6ZyLc2Wfzk5t"
+      },
+      {
+        "text": "Event program",
+        "url": "https://openui5.org/ui5con/germany2022/"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "UI5con · Best of UI5",
+    "meta": "7 Jul 2022 · Hybrid",
+    "description": "Peter Müßig and I showed how to discover open-source tooling and extensions in the UI5 ecosystem.",
+    "links": [
+      {
+        "text": "Recording",
+        "url": "https://www.youtube.com/watch?v=pOE3NKO_gk4",
+        "kind": "video"
+      },
+      {
+        "text": "Slides (PDF)",
+        "url": "https://openui5.org/ui5con/germany2022/slides/2022-UI5con-1_8-Marian-Zeis-Best_of_UI5.pdf"
+      },
+      {
+        "text": "Event program",
+        "url": "https://openui5.org/ui5con/germany2022/"
+      }
+    ]
   }
 ]

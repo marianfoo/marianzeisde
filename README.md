@@ -15,7 +15,7 @@ Open [localhost:8080](http://localhost:8080/). The build uses the checked-in art
 
 ## Content and publication
 
-- Edit project, talk, podcast, video and profile entries in `webapp/data/`. The `featured` flag selects projects and talks for the homepage. Videos marked `archive` appear on the history page.
+- Edit project, talk, podcast, video and profile entries in `webapp/data/`. The `featured` flag selects projects and talks for the homepage. A talk resource with `"kind": "video"` also appears in the recording index. The homepage shows the three newest talk recordings and any standalone demos marked `featured`. Keep talks and podcasts in reverse chronological order.
 - The homepage template is `webapp/index.html`. The shared layout, history and legal notice templates are in `templates/`. Skyzo has standalone pages under `webapp/skyzo/`.
 - The Pages workflow builds on pushes to `main`, on manual dispatch and daily at 05:17 UTC. It fetches the posts-only RSS feed from blog.zeis.de, deduplicates by URL, orders by publication time and renders the latest five entries into the HTML. A failed refresh stops publication, so the previous deployment stays online.
 - The daily check skips publication when the homepage is unchanged. A monthly workflow renewal keeps the schedule active during long gaps between repository changes.
